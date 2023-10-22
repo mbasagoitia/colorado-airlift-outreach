@@ -47,7 +47,11 @@
   height: auto;
 }
 
-.hp-content, .hp-nonprofit-text {
+.hp-content, .mission-content, .hp-nonprofit-text {
   padding: 0.5rem;
 }
 
+.footer {
+  color: white;
+  background-color: #333333;
+}

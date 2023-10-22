@@ -1,9 +1,11 @@
 import Navigation from "../components/Navigation";
 import ImageSlider from "../components/ImageSlider";
+import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
 
 function Home () {
     return (
+        <>
         <Container fluid>
         <div className="header">
             <img src="/images/hp-logo.png" alt="Colorado Airlift Outreach Logo" className="header-img"></img>
@@ -17,6 +19,8 @@ function Home () {
         <hr></hr>
         <p className="hp-nonprofit-text">CALO is a Christian, faith-based 501(c)(3) non-profit organization.</p>
         </Container>
+        <Footer />
+        </>
     )
 }
 
