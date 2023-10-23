@@ -47,11 +47,36 @@
   height: auto;
 }
 
-.hp-content, .mission-content, .hp-nonprofit-text {
-  padding: 0.5rem;
+.page-content, .hp-nonprofit-text {
+  padding: 2rem;
+}
+
+.float-img.left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.float-img.right {
+  float: right;
+  margin-left: 1rem;
 }
 
 .footer {
   color: white;
   background-color: #333333;
+}
+
+.optometrist-img {
+  width: 60vw;
+  min-width: 200px;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cliffs-img {
+  width: 60vw;
+  min-width: 200px;
 }
