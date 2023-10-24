@@ -12,7 +12,7 @@ function Mission () {
             <img src="/images/mission/mp-header-img.jpg" alt="airplane" className="header-img" />
         </div>
         <div className="page-content">
-            <h1>Mission</h1>
+            <h1 className="mb-4">Mission</h1>
             <p>CALO is a charitable, Christian faith-based, all-volunteer flying outreach dedicated to meeting the medical, spiritual, and transportation needs of the poor and needy within the capabilities of our aircraft, resources, and the availability and skills of our volunteers.</p>
             <p>Our Board members and many of our volunteers are Christian individuals who believe our Lord has directed us to be His hands and heart to all  we meet. We are blessed to be given the opportunity to serve others.  Our mission is to glorify our Lord with all we say and do personally and through our ministry of CALO.  The Word of God is very clear as to how we are expected to present ourselves and the manner in which we are to conduct our lives.  As we plan and execute our missions, we fully intend to obey His direction.</p>
             <p>We welcome all volunteers to participate in our missions, but ask that everyone understands we request that all language, actions, and work be disciplined with the highest morality and integrity. Our mission leaders will be responsible for maintaining these standards on all outreach missions.</p>
