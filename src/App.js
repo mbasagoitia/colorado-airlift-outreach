@@ -6,6 +6,10 @@ import WhatWeDo from './pages/WhatWeDo';
 import ClinicSchedule from './pages/ClinicSchedule';
 import Checklist from './pages/resources/Checklist';
 import EmergencyContacts from './pages/resources/EmergencyContacts';
+import VideosAndPhotos from './pages/resources/VideosAndPhotos';
+import Links from './pages/resources/Links';
+import PilotInformation from './pages/PilotInformation';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
         <Route path="clinic-schedule" element={<ClinicSchedule />} />
         <Route path="resources/clinic-trip-checklist" element={<Checklist />} />
         <Route path="resources/emergency-contacts" element={<EmergencyContacts />} />
+        <Route path="resources/videos-and-photos" element={<VideosAndPhotos />} />
+        <Route path="resources/links" element={<Links />} />
+        <Route path="pilot-information" element={<PilotInformation />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
