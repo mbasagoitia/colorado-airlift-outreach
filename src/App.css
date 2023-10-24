@@ -66,6 +66,12 @@
   background-color: #333333;
 }
 
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
 .optometrist-img {
   width: 60vw;
   min-width: 200px;
@@ -88,3 +94,4 @@
 .vp-img:last-of-type {
   margin-bottom: 0;
 }
+

@@ -10,18 +10,18 @@ function Navigation () {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#mission">Mission</Nav.Link>
-              <Nav.Link href="#what-we-do">What We Do</Nav.Link>
-              <Nav.Link href="#clinic-schedule">Clinic Schedule</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/mission">Mission</Nav.Link>
+              <Nav.Link href="/what-we-do">What We Do</Nav.Link>
+              <Nav.Link href="/clinic-schedule">Clinic Schedule</Nav.Link>
               <NavDropdown title="Resources" id="resources-dropdown">
-                <NavDropdown.Item href="#action/3.1">Clinic Trip Checklist</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Emergency Contacts</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Videos and Photos</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">Links</NavDropdown.Item>
+                <NavDropdown.Item href="/resources/clinic-trip-checklist">Clinic Trip Checklist</NavDropdown.Item>
+                <NavDropdown.Item href="/resources/emergency-contacts">Emergency Contacts</NavDropdown.Item>
+                <NavDropdown.Item href="/resources/videos-and-photos">Videos and Photos</NavDropdown.Item>
+                <NavDropdown.Item href="/resources/links">Links</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#pilot-info">Pilot Info</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="/pilot-information">Pilot Information</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

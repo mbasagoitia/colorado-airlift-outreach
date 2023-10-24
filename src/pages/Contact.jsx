@@ -32,9 +32,9 @@ function Contact () {
             <p>Site Phone Number: 970-249-3914</p>
             <hr />
             <p><strong><u>CALO Board Members</u></strong></p>
-            <p>Rick Weaver, President, rickweaver21@gmail.com, 970-209-8706</p>
-            <p>Dr. Wesley Cooper, drcooper@montrose.net, 970-249-3914 (wk), 970-249-5823 (hm),  970-596-7378 (cell)</p>
-            <p>Dr. Sandy Brownson, rsbod@hotmail.com, 970-433-4246</p>
+            <p>Rick Weaver, President, <a href="mailto:rickweaver21@gmail.com">rickweaver21@gmail.com</a>, 970-209-8706</p>
+            <p>Dr. Wesley Cooper, <a href="mailto:drcooper@montrose.net">drcooper@montrose.net</a>, 970-249-3914 (wk), 970-249-5823 (hm),  970-596-7378 (cell)</p>
+            <p>Dr. Sandy Brownson, <a href="mailto:rsbod@hotmail.com">rsbod@hotmail.com</a>, 970-433-4246</p>
         </div>
         <Footer />
         </Container>
