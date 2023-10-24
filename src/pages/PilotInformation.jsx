@@ -59,7 +59,7 @@ function PilotInformation () {
             <p>Copies of Airworthiness Certificate, Permanent Registration (no temporary reg.), Pilots Certificate, Medical Certificate, Insurance Certificate, Radio License (normally ignored by all), EAPIS filing confirmation email, permission-to-fly notarized letter from aircraft owner/entity, and permission letter from parents if a minor is traveling with only one or no parents.</p>
             <p><strong>Day Before Trip</strong></p>
             <ul>
-                <li>File Mexican APIS 24 hours before departure. Confirm current requirements through AOPA. We recommend joining other organizations, such as Baja Bush Pilots (<a href="http://www.bajabushpilots.com">http://www.bajabushpilots.com</a>) for complementary and current Mexican APIS and U.S. EAPIS filing through their website.  EAPISfile.com offers Mexican APIS and U.S. EAPIS filing service for the least cost ($25/year at the time of this writing).</li>
+                <li>File Mexican APIS 24 hours before departure. Confirm current requirements through AOPA. We recommend joining other organizations, such as Baja Bush Pilots (<a href="http://www.bajabushpilots.com">http://www.bajabush<wbr />pilots.com</a>) for complementary and current Mexican APIS and U.S. EAPIS filing through their website.  EAPISfile.com offers Mexican APIS and U.S. EAPIS filing service for the least cost ($25/year at the time of this writing).</li>
                 <li>Communicate with passengers: confirm they are going and that the trip is on schedule. Remind them of baggage weight limitations, to pack a lunch and water, and to have their passport in hand.</li>
                 <li>Confirm method of notifying Mexico APIS from airport. Will need data service activated in Mexico and electronic device to send if you are doing this without an outside service provider.</li>
                 <li>Confirm survival kit onboard and provide some water for each passenger.</li>
@@ -155,15 +155,15 @@ function PilotInformation () {
                 <li>If Airport Runs Out of Fuel (this does happen):   Prepare ahead of time to have enough fuel to fly to another field that has fuel.</li>
                 <li>If Airport of Arrival Under Coastal Layer: Circle, look inland for big holes and adequate ceilings (be careful of “sucker” holes). If necessary, return to airport of origin or divert to another airport in the area with better weather.</li>
                 </ul>
-                <p><strong>Resources</strong></p>
+                <p className="resources-heading"><strong>Resources</strong></p>
                 <ul>
-                    <li>AOPA - <a href="http://www.aopa.org/Flight-Planning/Mexico">http://www.aopa.org/Flight-Planning/Mexico</a></li>
+                    <li>AOPA - <a href="http://www.aopa.org/Flight-Planning/Mexico">http://www.aopa.org/<wbr />Flight-Planning/Mexico</a></li>
                     <li>EAPISfile.com (US and MX EAPIS filing service provider) - <a href="https://www.eapisfile.com">https://www.eapisfile.com</a></li>
                     <li>U.S. Customs Stickers - <a href="https://dtops.cbp.dhs.gov">https://dtops.cbp.dhs.gov</a></li>
                     <li>EAPIS – USA - <a href="https://eapis.cbp.dhs.gov">https://eapis.cbp.dhs.gov</a></li>
-                    <li>Liga - <a href="https://www.ligainternational.org/web/Liga/default.asp">https://www.ligainternational.org/web/Liga/default.asp</a></li>
-                    <li>Flying Samaritans - <a href="http://www.flyingsamaritans.com">http://www.flyingsamaritans.com</a></li>
-                    <li>Baja Bush Pilots Association - <a href="http://www.bajabushpilots.com">http://www.bajabushpilots.com</a></li>
+                    <li>Liga - <a href="https://www.ligainternational.org/web/Liga/default.asp">https://www.liga<wbr/>international.org<wbr />/web/Liga/default.asp</a></li>
+                    <li>Flying Samaritans - <a href="http://www.flyingsamaritans.com">http://www.flying<wbr />samaritans.com</a></li>
+                    <li>Baja Bush Pilots Association - <a href="http://www.bajabushpilots.com">http://www.bajabush<wbr />pilots.com</a></li>
                 </ul>
         </div>
         <Footer />
