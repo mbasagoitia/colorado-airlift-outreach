@@ -42,10 +42,10 @@ function Checklist () {
                 <li>Provide family members or significant others with emergency contact information.</li>
             </ul>
             <h2 className="mb-4">Emergency Contact Information</h2>
-            <p>Bill Roesch, 970-901-9205 (cell and text), b_roesch@yahoo.com</p>
+            <p>Bill Roesch, 970-901-9205 (cell and text), <a href="mailto:b_roesch@yahoo.com">b_roesch@yahoo.com</a></p>
             <p>USA-based Team Contact volunteers who can often be reached in Mexico during a Clinic weekend by dialing or texting directly (emails are unreliable while in MX):</p>
-            <p>Rick Weaver, 970-209-8706, rickweaver21@gmail.com</p>
-            <p>Ed Greager, 909-354-7323, 714pilot@gmail.com</p>
+            <p>Rick Weaver, 970-209-8706, <a href="mailto:rickweaver21@gmail.com">rickweaver21@gmail.com</a></p>
+            <p>Ed Greager, 909-354-7323, <a href="mailto:714pilot@gmail.com">714pilot@gmail.com</a></p>
             <p>La Villa de San Quintin Hotel:</p>
             <p>O11-52 Country Code + 616-165-1800 office</p>
             <p>011-52 Country Code + 616-165-1415 FAX</p>
