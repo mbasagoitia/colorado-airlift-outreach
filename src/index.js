@@ -6,6 +6,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import CMS from "netlify-cms";
 // import "./config.yml";
+import netlifyIdentity from "netlify-identity-widget";
+
+netlifyIdentity.init();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
