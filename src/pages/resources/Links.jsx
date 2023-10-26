@@ -9,7 +9,7 @@ function Links () {
             <Header />
             <Navigation />
         <div className="full-page-img">
-            <img src="/images/resources/links-header-img.png" alt="airplane" className="header-img" />
+            <img src="/images/resources/links-header-img.jpg" alt="view of the mountains" className="header-img" />
         </div>
         <div className="page-content">
             <h1 className="mb-4">Links</h1>

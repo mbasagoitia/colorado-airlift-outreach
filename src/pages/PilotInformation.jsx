@@ -9,7 +9,7 @@ function PilotInformation () {
             <Header />
             <Navigation />
         <div className="full-page-img">
-            <img src="/images/resources/links-header-img.png" alt="airplane" className="header-img" />
+            <img src="/images/resources/pilot-header-img.png" alt="airplane" className="header-img" />
         </div>
         <div className="page-content">
             <h1 className="mb-4">Pilot Information</h1>

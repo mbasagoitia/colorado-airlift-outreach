@@ -9,7 +9,7 @@ function Contact () {
             <Header />
             <Navigation />
         <div className="full-page-img">
-            <img src="/images/contact/cp-header-img.png" alt="sunset" className="header-img" />
+            <img src="/images/contact/contact-header.jpg" alt="CALO team and volunteers" className="header-img" />
         </div>
         <div className="page-content">
             <h1 className="mb-4">Contact</h1>

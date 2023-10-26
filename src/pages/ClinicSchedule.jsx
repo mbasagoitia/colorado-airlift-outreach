@@ -9,7 +9,7 @@ function ClinicSchedule () {
             <Header />
             <Navigation />
         <div className="full-page-img">
-            <img src="/images/clinic-schedule/cs-optometrist-img.jpg" alt="optometrist" className="header-img" />
+            <img src="/images/clinic-schedule/cs-header.jpg" alt="doctor with patient" className="header-img" />
         </div>
         <div className="page-content">
             <h1>Clinic Schedule</h1>

@@ -9,7 +9,7 @@ function WhatWeDo () {
             <Header />
             <Navigation />
         <div className="full-page-img">
-            <img src="/images/what-we-do/wwd-header.jpg" alt="palm trees" className="header-img" />
+            <img src="/images/what-we-do/wwd-header.jpg" alt="CALO team standing near airplane" className="header-img" />
         </div>
         <div className="page-content mb-4">
             <h1 className="mb-4">What We Do</h1>

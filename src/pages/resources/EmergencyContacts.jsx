@@ -9,7 +9,7 @@ function EmergencyContacts () {
             <Header />
             <Navigation />
         <div className="full-page-img">
-            <img src="/images/resources/checklist-img.png" alt="people sitting around a table" className="header-img" />
+            <img src="/images/resources/emergency-contacts-header.jpg" alt="CALO team" className="header-img" />
         </div>
         <div className="page-content">
             <h1>Emergency Contacts</h1>
