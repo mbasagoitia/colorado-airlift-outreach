@@ -9,7 +9,7 @@ function Mission () {
             <Header />
             <Navigation />
         <div className="full-page-img">
-            <img src="/images/mission/mp-header-img.jpg" alt="airplane" className="header-img" />
+            <img src="/images/mission/mp-header-img.jpg" alt="row of airplanes" className="header-img" />
         </div>
         <div className="page-content">
             <h1 className="mb-4">Mission</h1>
@@ -19,7 +19,7 @@ function Mission () {
             <p>Our intended pattern of conduct for all CALO volunteers is well described by Colossians 3:12-14:</p>
             <blockquote>“As those who have been chosen of God, holy and beloved, put on as heart of compassion , kindness, humility , gentleness, and patience; bearing with one another, and forgiving each other , whoever has a complaint against anyone; just s the Lord forgave you, so also should you. And beyond all these things put on love, which is the perfect bond of unity.  And let the peace of Christ rule in your hearts…and be thankful.”</blockquote>
             <div className="img-text-container">
-                <img src="/images/mission/mp-child-img.jpg" alt="child" className="float-img left"/>
+                <img src="/images/mission/mp-child-img.jpg" alt="child wearing glasses" className=" child-img float-img left"/>
                 <p>CALO operates solely dependent upon the Lord’s provision, individual and corporate donations, volunteers, and the generosity of pilot/owners to offer their private aircraft for our outreach flights. We have no paid employees, and all planning and administrative tasks are handled by volunteers. We have been a Colorado non-profit corporation since September 28, 2000, operate in compliance with the Articles of Incorporation, and were granted IRS 501(c)(3) tax exempt status on October 12, 2001 Our capital assets include some surgery instruments and two older vans stored at the El Buen Pastor Hospital, San Quintin, Baja Norte, Mexico, used to transport our volunteers while on-site. We have no liabilities.</p>
             </div>
             <div className="img-text-container">

@@ -4,25 +4,22 @@ function ImageSlider () {
   return (
     <Carousel>
       <Carousel.Item interval={4000}>
-        <img src="/images/home/hp-image-1.jpg" alt="cliffs" />
+        <img src="/images/home/hp-img-1.jpg" alt="people pushing airplane" />
       </Carousel.Item>
       <Carousel.Item interval={4000}>
-        <img src="/images/home/hp-image-2.jpg" alt="airplane" />
+        <img src="/images/home/hp-img-2.jpg" alt="aerial view of cliffs" />
       </Carousel.Item>
       <Carousel.Item interval={4000}>
-        <img src="/images/home/hp-image-3.jpg" alt="people sitting outside" />
+        <img src="/images/home/hp-img-3.png" alt="doctors working with patients" />
       </Carousel.Item>
       <Carousel.Item interval={4000}>
-        <img src="/images/home/hp-image-4.jpg" alt="children" />
+        <img src="/images/home/hp-img-4.jpg" alt="volunteers and people outside" />
       </Carousel.Item>
       <Carousel.Item interval={4000}>
-        <img src="/images/home/hp-image-5.jpg" alt="group of volunteers" />
+        <img src="/images/home/hp-img-5.jpg" alt="group of doctors and volunteers" />
       </Carousel.Item>
       <Carousel.Item interval={4000}>
-        <img src="/images/home/hp-image-6.jpg" alt="optometrists working with a patient" />
-      </Carousel.Item>
-      <Carousel.Item interval={4000}>
-        <img src="/images/home/hp-image-7.jpg" alt="CALO team standing in front of airplane" />
+        <img src="/images/home/hp-img-7.jpg" alt="CALO team standing in front of airport" />
       </Carousel.Item>
     </Carousel>
   );

@@ -40,6 +40,10 @@ h1 {
   justify-content: space-between;
 }
 
+.carousel-item {
+  height: 80vh;
+}
+
 .carousel-item img {
   width: 100vw;
   height: auto;
@@ -57,6 +61,11 @@ h1 {
   width: 100%;
 }
 
+.child-img {
+  width: 16rem;
+  height: auto;
+}
+
 .float-img {
   display: block;
   margin: 1rem auto;
@@ -71,9 +80,7 @@ h1 {
 
 .footer-content {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
   justify-content: center;
   text-align: center;
 }
@@ -82,7 +89,7 @@ h1 {
   margin: 0;
 }
 
-.optometrist-img, .cliffs-img {
+.optometrist-img, .volunteer-img {
   width: 100%;
   min-width: 225px;
 }
@@ -123,18 +130,21 @@ h1 {
     margin-left: 1rem;
   }
 
-  .optometrist-img, .cliffs-img {
+  .optometrist-img {
     width: 60vw;
+    margin: 0;
+  }
+
+  .volunteer-img {
+    width: 20vw;
+    height: auto;
+    margin: 0;
   }
 
   .footer-content {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 1rem;
   }
-  .footer-content p {
-    margin: 0;
-  }
+
 }
 
 @media (min-width: 768px) {
