@@ -64,12 +64,12 @@ h1 {
   width: 100%;
 }
 
-.child-img {
+.child-img p img {
   width: 16rem;
   height: auto;
 }
 
-.float-img {
+.float-img p img {
   display: block;
   margin: 1rem auto;
   max-width: 75vw;
@@ -133,12 +133,12 @@ h1 {
     padding: 2rem;
   }
 
-  .float-img.left {
+  .float-img.left p img {
     float: left;
     margin-right: 1rem;
   }
   
-  .float-img.right {
+  .float-img.right p img {
     float: right;
     margin-left: 1rem;
   }

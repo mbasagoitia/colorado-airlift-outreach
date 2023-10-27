@@ -14,14 +14,12 @@ function MyCustomRenderer(props) {
             if (parts.length > 1) {
                 const [className, text] = parts[1].split('"}');
                 output.push(
-                    <div key={output.length} className={className}>
-                        <ReactMarkdown children={text} />
-                    </div>
+                        <ReactMarkdown key={output.length} className={className} children={text} />
                 );
                 isWithinParagraph = false;
             } else {
                 if (!isWithinParagraph) {
-                    output.push(<div key={output.length}><ReactMarkdown children={line} /></div>);
+                    output.push(<ReactMarkdown key={output.length} children={line} />);
                 }
             }
         }
