@@ -2,8 +2,31 @@ import { Container } from "react-bootstrap";
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import MyCustomRenderer from "../CustomRenderer";
+import React, { useState, useEffect } from "react";
 
 function ClinicSchedule () {
+    
+    const [markdownContent, setMarkdownContent] = useState("");
+
+    useEffect(() => {
+        const markdownFilePath = "/content/pages/clinic-schedule.md";
+
+        fetch(markdownFilePath)
+        .then((res) => {
+            if (!res.ok) {
+                throw new Error("Network response error")
+            }
+            return res.text();
+        })
+        .then((data) => {
+            setMarkdownContent(data);
+        })
+        .catch((err) => {
+            console.error(err)
+        })
+    }, [])
+
     return (
         <Container fluid>
             <Header />
@@ -12,13 +35,7 @@ function ClinicSchedule () {
             <img src="/images/clinic-schedule/cs-header.jpg" alt="doctor with patient" className="header-img" />
         </div>
         <div className="page-content">
-            <h1>Clinic Schedule</h1>
-            <p className="mt-4">We are currently directing our resources in support of spring and fall four-day weekend flights at the El Buen Pastor Hospital, San Quintin, Baja, Mexico. The general schedule is for Thursday through Sunday clinics the fourth weekend in April and the third weekend in September.</p>
-            <p>For <strong>2022</strong>, the clinic dates are:</p>
-            <p><strong>SPRING CLINIC</strong></p>
-            <p>Thursday, April 28 – Sunday, May 1</p>
-            <p><strong>FALL CLINIC</strong></p>
-            <p>Thursday, September 15 – Sunday, September 18 </p>
+            <MyCustomRenderer content={markdownContent} />
         </div>        
         <Footer />
         </Container>

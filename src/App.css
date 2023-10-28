@@ -79,6 +79,7 @@ h1 {
   color: white;
   background-color: #333333;
   padding: 0.5rem;
+  margin-top: 2rem;
 }
 
 .footer-content {
@@ -146,6 +147,7 @@ h1 {
   .optometrist-img p img {
     width: 60vw;
     margin: 0;
+    max-width: 750px;
   }
 
   .volunteer-img p img {
@@ -161,6 +163,12 @@ h1 {
 }
 
 @media (min-width: 768px) {
+  .volunteer-img p img {
+    width: 3%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
   .carousel-item {
     height: 560px;
   }
