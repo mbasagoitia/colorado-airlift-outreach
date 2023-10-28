@@ -92,7 +92,7 @@ h1 {
   margin: 0;
 }
 
-.optometrist-img, .volunteer-img {
+.optometrist-img p img, .volunteer-img p img {
   width: 100%;
   min-width: 225px;
 }
@@ -143,12 +143,12 @@ h1 {
     margin-left: 1rem;
   }
 
-  .optometrist-img {
+  .optometrist-img p img {
     width: 60vw;
     margin: 0;
   }
 
-  .volunteer-img {
+  .volunteer-img p img {
     width: 20vw;
     height: auto;
     margin: 0;
