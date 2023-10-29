@@ -10,7 +10,7 @@ import netlifyIdentity from "netlify-identity-widget";
 // import jsyaml from "js-yaml";
 
 
-console.log("config", config);
+// console.log("config", config);
 
 netlifyIdentity.init();
 CMS.init({ 
