@@ -20,11 +20,6 @@ fetch("/config.yml")
   console.error(err);
 })
 
-
-const parsedYamlContent = jsyaml.load(yamlContent);
-
-CMS.init({ config: yamlContent });
-
 // fetch('./config.yml')
 // .then((res) => res.text())
 // .then((yamlText) => {
