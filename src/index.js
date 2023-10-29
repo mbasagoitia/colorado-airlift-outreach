@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import CMS from "netlify-cms";
 import config from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
-console.log(config);
+console.log("config", config);
 
 netlifyIdentity.init();
 CMS.init({ config });
