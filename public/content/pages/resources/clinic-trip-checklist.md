@@ -1,6 +1,6 @@
 # Clinic Trip Checklist
 
-{className="mt-5"}**Consider Immunizations:** Volunteers may want to check on the status of their immunizations, as well as recommended additional immunizations for travel in Mexico. County Health Departments often have such recommendations and offer discounted immunizations.
+{className="mt-4"}**Consider Immunizations:** Volunteers may want to check on the status of their immunizations, as well as recommended additional immunizations for travel in Mexico. County Health Departments often have such recommendations and offer discounted immunizations.
 
 **Confirm Passport:** Volunteers need to carry their current Passport with them to enter Mexico and return to the U.S. Those without a Passport, or with an expired Passport need to obtain one through their U.S. Post Office, preferably months before the scheduled clinic date.
 
@@ -38,7 +38,7 @@ A typical weekend at the mission clinic starts with preparations and equipment s
 * Your cell phone will probably function for voice and message reception in the San Quintin Valley if you subscribe to Mexican coverage with your carrier. Data service is questionable, however, WIFI is available in the hotel and at the clinic, and can be quite useful for communicating with family, team members, or for pilots making changes to flight plans.
 * Provide family members or significant others with emergency contact information.
 
-{className="my-5"}## Emergency Contact Information
+{className="my-4"}## Emergency Contact Information
 
 Bill Roesch, 970-901-9205 (cell and text), [b_roesch@yahoo.com](mailto:b_roesch@yahoo.com)
 

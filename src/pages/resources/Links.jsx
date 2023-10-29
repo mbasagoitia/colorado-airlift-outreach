@@ -2,8 +2,31 @@ import { Container } from "react-bootstrap";
 import Header from "../../components/Header";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
+import MyCustomRenderer from "../../CustomRenderer";
+import React, { useState, useEffect } from "react";
 
 function Links () {
+
+    const [markdownContent, setMarkdownContent] = useState("");
+
+    useEffect(() => {
+        const markdownFilePath = "/content/pages/resources/links.md";
+
+        fetch(markdownFilePath)
+        .then((res) => {
+            if (!res.ok) {
+                throw new Error("Network response error")
+            }
+            return res.text();
+        })
+        .then((data) => {
+            setMarkdownContent(data);
+        })
+        .catch((err) => {
+            console.error(err)
+        })
+    }, [])
+
     return (
         <Container fluid>
             <Header />
@@ -12,14 +35,7 @@ function Links () {
             <img src="/images/resources/links-header-img.jpg" alt="view of the mountains" className="header-img" />
         </div>
         <div className="page-content">
-            <h1 className="mb-4">Links</h1>
-            <p>AOPA - <a href="http://www.aopa.org/Flight-Planning/Mexico">http://www.aopa.org/Flight-Planning/Mexico</a></p>
-            <p>EAPISfile.com (US and MX EAPIS filing service provider) - <a href="https://www.eapisfile.com">https://www.eapisfile.com</a></p>
-            <p>U.S. Customs Stickers - <a href="https://dtops.cbp.dhs.gov">https://dtops.cbp.dhs.gov</a></p>
-            <p>EAPIS – USA - <a href="https://eapis.cbp.dhs.gov">https://eapis.cbp.dhs.gov</a></p>
-            <p>Liga - <a href="https://www.ligainternational.org/web/Liga/default.asp">https://www.ligainternational.org<wbr />/web/Liga/default.asp</a></p>
-            <p>Flying Samaritans - <a href="http://www.flyingsamaritans.com">http://www.flyingsamaritans.com</a></p>
-            <p>Baja Bush Pilots Association - <a href="http://www.bajabushpilots.com">http://www.bajabushpilots.com</a></p>
+            <MyCustomRenderer content={markdownContent} />
         </div>
         <Footer />
         </Container>
