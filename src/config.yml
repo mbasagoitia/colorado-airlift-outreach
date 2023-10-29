@@ -4,6 +4,7 @@ backend:
   branch: main
   base_url: /api
   site_domain: https://harmonious-toffee-b74135.netlify.app/
+  identity_url: https://harmonious-toffee-b74135.netlify.app/.netlify/identity
 
 media_folder: public/images/uploads
 public_folder: /images/uploads
