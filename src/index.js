@@ -9,11 +9,17 @@ import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-const config = jsyaml.load(configYAML);
-console.log("config", config);
+fetch('../../public/yaml.config.yml')
+.then((res) => res.text())
+.then((yamlText) => {
+  const yamlObj = jsyaml.load(yamlText);
+  console.log(yamlObj);
+  CMS.init({ config: yamlObj });
+})
+.catch((err) => console.error(err));
 
 netlifyIdentity.init();
-CMS.init({ config });
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
