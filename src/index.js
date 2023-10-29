@@ -9,7 +9,7 @@ import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-fetch('../../public/yaml.config.yml')
+fetch('./config.yml')
 .then((res) => res.text())
 .then((yamlText) => {
   const yamlObj = jsyaml.load(yamlText);
