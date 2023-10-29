@@ -9,27 +9,24 @@ import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-fetch("../config.yml")
-.then((res) => res.text())
-.then((yamlText) => {
-  const yamlObj = jsyaml.load(yamlText);
-  console.log(yamlObj);
-  CMS.init({ config: yamlObj });
-})
-.catch((err) => {
-  console.error(err);
-})
-
-// fetch('./config.yml')
-// .then((res) => res.text())
-// .then((yamlText) => {
-//   const yamlObj = jsyaml.load(yamlText);
-//   console.log(yamlObj);
-//   CMS.init({ yamlObj });
-// })
-// .catch((err) => console.error(err));
+const yamlContent = {
+  backend: {
+    name: 'test-repo',
+  },
+  collections: [
+    {
+      name: 'posts',
+      label: 'Posts',
+      create: true,
+      fields: [
+        { label: 'Title', name: 'title', widget: 'string' }
+      ],
+    },
+  ],
+};
 
 netlifyIdentity.init();
+CMS.init({ config: yamlContent });
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
