@@ -9,25 +9,24 @@ import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-const yamlContent = `backend:
+const yamlContent = `
+backend:
 name: git-gateway
 repo: mbasagoitia/colorado-airlift/outreach
 branch: main
 base_url: /api
 site_domain: https://harmonious-toffee-b74135.netlify.app/
 identity_url: https://harmonious-toffee-b74135.netlify.app/.netlify/identity
-
 media_folder: public/images/uploads
 public_folder: /images/uploads
-
 collections:
 - name: 'home'
 label: 'Home'
 folder: 'content/pages/home'
 create: true
 fields:
-  { name: 'title', label: 'Title', widget: 'string' }
-  { name: 'body', label: 'Body', widget: 'markdown' }
+  - { name: 'title', label: 'Title', widget: 'string' }
+  - { name: 'body', label: 'Body', widget: 'markdown' }
 roles: ["admin"]
 - name: 'mission'
 label: 'Mission'
@@ -105,8 +104,6 @@ fields:
   ]
 }
 roles: ["admin"]
-
-
 site_config:
 name: 'site-config'
 file: 'data/site-config.json'
