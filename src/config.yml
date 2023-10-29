@@ -1,9 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: mbasagoitia/colorado-airlift/outreach
   branch: main
+  base_url: /api
+  site_domain: https://harmonious-toffee-b74135.netlify.app/
 
-media_folder: static/uploads
-public_folder: /uploads
+media_folder: public/images/uploads
+public_folder: /images/uploads
 
 collections:
   -name: 'home'
@@ -69,6 +72,18 @@ collections:
   fields:
     { name: 'title', label: 'Title', widget: 'string' }
     { name: 'body', label: 'Body', widget: 'markdown' }
+  -name: 'videos-photos-collection1'
+  label: 'Videos and Photos Collection 1'
+  folder: 'content/pages/resources/videos-and-photos/collection1'
+  create: true
+  fields:
+    { name: 'title', label: 'Title', widget: 'string' }
+    { name: 'body', label: 'Body', widget: 'markdown' }
+    { name: 'images', label: 'Images', widget: 'list', fields: [
+      { name: 'image', label: 'Image', widget: 'image' }
+    ]
+  }
+
 
 site_config:
   name: 'site-config'

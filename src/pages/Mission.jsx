@@ -33,7 +33,7 @@ function Mission () {
         <div className="full-page-img">
             <img src="/images/mission/mp-header-img.jpg" alt="row of airplanes" className="header-img" />
         </div>
-        <div className="page-content">
+        <div className="page-content mission">
             <MyCustomRenderer content={markdownContent} />
         </div>
         <Footer />

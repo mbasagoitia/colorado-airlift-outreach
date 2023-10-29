@@ -34,7 +34,7 @@ function WhatWeDo () {
         <div className="full-page-img">
             <img src="/images/what-we-do/wwd-header.jpg" alt="CALO team standing near airplane" className="header-img" />
         </div>
-        <div className="page-content mb-4">
+        <div className="page-content wwd mb-4">
             <MyCustomRenderer content={markdownContent} />
         </div>        
         <Footer />

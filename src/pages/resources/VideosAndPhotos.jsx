@@ -11,7 +11,7 @@ function VideosAndPhotos () {
         <div className="full-page-img">
             <img src="/images/resources/videos-photos/videos-photos-header.png" alt="outreach program volunteers" className="header-img" />
         </div>
-        <div className="page-content">
+        <div className="page-content videos-photos">
             <h1>Videos and Photos</h1>
             <div className="video-photo-wrapper d-flex flex-column justify-content-center mt-5">
                 <img src="/images/resources/videos-photos/vp-img-1.jpg" alt="volunteers sitting around a table" className="vp-img" />
