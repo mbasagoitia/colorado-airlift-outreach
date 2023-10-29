@@ -5,8 +5,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CMS from "netlify-cms";
-import config from "./config.yml";
+import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
+import jsyaml from "js-yaml";
+
+const config = jsyaml.safeLoad(configYAML);
 console.log("config", config);
 
 netlifyIdentity.init();
