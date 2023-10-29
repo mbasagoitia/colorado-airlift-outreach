@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  # repo: mbasagoitia/colorado-airlift/outreach
+  repo: mbasagoitia/colorado-airlift/outreach
   branch: main
   base_url: /api
   site_domain: https://harmonious-toffee-b74135.netlify.app/
