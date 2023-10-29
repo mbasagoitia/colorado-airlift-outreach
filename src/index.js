@@ -9,18 +9,17 @@ import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-const yamlContent = `
-backend:
-  name: test-repo
+fetch("/config.yml")
+.then((res) => res.text())
+.then((yamlText) => {
+  const yamlObj = jsyaml.load(yamlText);
+  CMS.init({ config: yamlObj });
+})
+.catch((err) => {
+  console.error(err);
+})
 
-collections: 
-- name: 'posts'
-  label: 'Posts'
-  folder: 'content/posts'
-  create: true
-  fields:
-    - { label: "Title", name: 'title', widget: 'string' }
-`
+
 const parsedYamlContent = jsyaml.load(yamlContent);
 
 CMS.init({ config: yamlContent });
