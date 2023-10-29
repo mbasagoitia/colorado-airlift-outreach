@@ -23,7 +23,7 @@ collections:
 `
 const parsedYamlContent = jsyaml.load(yamlContent);
 
-CMS.init({ config: parsedYamlContent });
+CMS.init({ config: yamlContent });
 
 // fetch('./config.yml')
 // .then((res) => res.text())
