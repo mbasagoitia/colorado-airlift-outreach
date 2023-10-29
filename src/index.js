@@ -5,15 +5,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CMS from "netlify-cms";
-import configYAML from "./config.yml";
+// import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
-import jsyaml from "js-yaml";
+// import jsyaml from "js-yaml";
 
-const config = jsyaml.load(configYAML);
+
 console.log("config", config);
 
 netlifyIdentity.init();
-CMS.init({ config });
+CMS.init({ 
+  config: {
+  backend: {
+    name: "git-gateway",
+    branch: "main",
+    base_url: "/api",
+    site_domain: "https://harmonious-toffee-b74135.netlify.app/",
+    identity_url: "https://harmonious-toffee-b74135.netlify.app/.netlify/identity"
+  },
+
+media_folder: "static/images/uploads",
+public_folder: "/images/uploads"
+  }});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
