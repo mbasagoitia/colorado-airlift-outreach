@@ -9,7 +9,7 @@ import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-const config = jsyaml.safeLoad(configYAML);
+const config = jsyaml.load(configYAML);
 console.log("config", config);
 
 netlifyIdentity.init();
