@@ -116,8 +116,9 @@ fields:
   - { name: 'title', label: 'Site Title', widget: 'string' }
   - { name: 'metaDescription', label: 'Meta Description', widget: 'text' }
 `
+const parsedYamlContent = jsyaml.load(yamlContent);
 
-CMS.init({ config: yamlContent });
+CMS.init({ config: parsedYamlContent });
 
 // fetch('./config.yml')
 // .then((res) => res.text())
