@@ -14,7 +14,7 @@ fetch('./config.yml')
 .then((yamlText) => {
   const yamlObj = jsyaml.load(yamlText);
   console.log(yamlObj);
-  CMS.init({ config: yamlObj });
+  CMS.init({ yamlObj });
 })
 .catch((err) => console.error(err));
 
