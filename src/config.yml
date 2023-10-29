@@ -1,6 +1,4 @@
-config: 
-
-{ backend:
+backend:
   name: git-gateway
   repo: mbasagoitia/colorado-airlift/outreach
   branch: main
@@ -109,4 +107,3 @@ site_config:
   fields:
     - { name: 'title', label: 'Site Title', widget: 'string' }
     - { name: 'metaDescription', label: 'Meta Description', widget: 'text' }
-}
