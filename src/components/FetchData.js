@@ -12,24 +12,24 @@ function FetchData() {
         images: defaultImages
     });
 
-    useEffect(() => {
-        const fetchUserImages = async () => {
-            try {
-                const res = await fetch("https://harmonious-toffee-b74135.netlify.app/api/images/uploads");
-                if (!res.ok) {
-                    throw new Error('Failed to fetch user images');
-                }
-                const userUploadedImages = await res.json();
-                setPhotoData((prevData) => ({
-                    ...prevData,
-                    images: [...defaultImages, ...userUploadedImages]
-                }))
-            } catch (err) {
-                console.error(err);
-            }
-        }
-        fetchUserImages();
-    }, [])
+    // useEffect(() => {
+    //     const fetchUserImages = async () => {
+    //         try {
+    //             const res = await fetch("https://harmonious-toffee-b74135.netlify.app/api/images/uploads");
+    //             if (!res.ok) {
+    //                 throw new Error('Failed to fetch user images');
+    //             }
+    //             const userUploadedImages = await res.json();
+    //             setPhotoData((prevData) => ({
+    //                 ...prevData,
+    //                 images: [...defaultImages, ...userUploadedImages]
+    //             }))
+    //         } catch (err) {
+    //             console.error(err);
+    //         }
+    //     }
+    //     fetchUserImages();
+    // }, [])
 
     return (
         <>
