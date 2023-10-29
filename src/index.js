@@ -13,6 +13,7 @@ fetch("/config.yml")
 .then((res) => res.text())
 .then((yamlText) => {
   const yamlObj = jsyaml.load(yamlText);
+  console.log(yamlObj);
   CMS.init({ config: yamlObj });
 })
 .catch((err) => {
