@@ -1,0 +1,24 @@
+To edit text on any page,
+
+To change images on any page:
+
+1. Use the image folder icon at the top of the editor to upload the image you want to add in. 
+   Take note of the name of the image, including any spaces and capitalization.
+
+2. Make sure to switch Markdown ON (right side at top of editor)
+
+3. Locate the image tag within the page. It should look like this ![image-description](image-path).
+   If you see curly braces {} with text in them, DO NOT edit any of the text inside of the curly braces.
+   This text is necessary for styling of the webpage.
+
+4. Change the text inside of the brackets [] to a short description of your image.
+
+5. Change to pathname inside of the parentheses () to the following: /images/my-image.jpg
+   Make sure to replace "my-image.jpg" with the name of your image, including the appropriate file extension (jpg, png, etc.)
+
+6. The pathname must include an exact match of your image name, including capitalization. If your image name
+   contains spaces, replace each space with %20. For example, if you are adding an image called Airplane Image.jpg,
+   your pathname would be /images/Airplane%20Image.jpg and the entire image tag would be as follows:
+   ![Image of an Airplane](/images/Airplane%20Image.jpg).
+
+7. Click save at the bottom right hand corner of the page. You should see your changes reflected on the live site within a few minutes.
