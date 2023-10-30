@@ -9,8 +9,13 @@ function MyCustomRenderer(props) {
         let isWithinParagraph = false;
         let output = [];
 
+        let skipFrontMatter = false;
+
         for (let line of lines) {
-            const parts = line.split('{className="');
+            if (line.trim() === '---') {
+                skipFrontMatter = !skipFrontMatter;
+            } else if (!skipFrontMatter) {
+                const parts = line.split('{className="');
             if (parts.length > 1) {
                 const [className, text] = parts[1].split('"}');
                 output.push(
@@ -21,6 +26,7 @@ function MyCustomRenderer(props) {
                 if (!isWithinParagraph) {
                     output.push(<ReactMarkdown key={output.length} children={line} />);
                 }
+            }
             }
         }
 

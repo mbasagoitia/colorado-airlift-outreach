@@ -1,0 +1,93 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: 'home'
+    label: 'Home'
+    folder: 'public/content/pages'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'mission'
+    label: 'Mission'
+    folder: 'public/content/pages'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }  
+  - name: 'what-we-do'
+    label: 'What We Do'
+    folder: 'public/content/pages'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'clinic-schedule'
+    label: 'Clinic Schedule'
+    folder: 'public/content/pages'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'clinic-trip-checklist'
+    label: 'Clinic Trip Checklist'
+    folder: 'public/content/pages/resources'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'emergency-contacts'
+    label: 'Emergency Contacts'
+    folder: 'public/content/pages/resources'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'links'
+    label: 'Links'
+    folder: 'public/content/pages/resources'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'pilot-information'
+    label: 'Pilot Information'
+    folder: 'public/content/pages'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'contact'
+    label: 'Contact'
+    folder: 'public/content/pages'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'videos-photos-collection1'
+    label: 'Videos and Photos Collection 1'
+    folder: 'public/content/pages/resources/videos-and-photos'
+    create: true
+    fields:
+    - { name: 'title', label: 'Title', widget: 'string' }
+    - { name: 'body', label: 'Body', widget: 'markdown' }
+    - { name: 'images', label: 'Images', widget: 'list', fields: 
+    [{ name: 'image', label: 'Image', widget: 'image' }],
+  }
+
+site_config:
+  name: 'site-config'
+  file: 'data/site-config.json'
+  label: 'Site Configuration'
+  create: true
+  delete: true
+  editor:
+    preview: true
+  fields:
+    - { name: 'title', label: 'Site Title', widget: 'string' }
+    - { name: 'metaDescription', label: 'Meta Description', widget: 'text' }
