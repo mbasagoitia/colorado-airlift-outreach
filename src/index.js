@@ -9,24 +9,8 @@ import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-const yamlContent = {
-  backend: {
-    name: 'test-repo',
-  },
-  collections: [
-    {
-      name: 'posts',
-      label: 'Posts',
-      create: true,
-      fields: [
-        { label: 'Title', name: 'title', widget: 'string' }
-      ],
-    },
-  ],
-};
-
 netlifyIdentity.init();
-CMS.init({ config: yamlContent });
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
