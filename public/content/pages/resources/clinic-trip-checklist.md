@@ -1,3 +1,7 @@
+---
+title: "Clinic Trip Checklist"
+---
+
 # Clinic Trip Checklist
 
 {className="mt-4"}**Consider Immunizations:** Volunteers may want to check on the status of their immunizations, as well as recommended additional immunizations for travel in Mexico. County Health Departments often have such recommendations and offer discounted immunizations.

@@ -1,3 +1,7 @@
+---
+title: "Contact"
+---
+
 # Contact
 
 {className="mt-4"}**By Email or Phone**

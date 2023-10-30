@@ -1,3 +1,7 @@
+---
+title: "Mission"
+---
+
 # Mission
 
 {className="mt-4"} CALO is a charitable, Christian faith-based, all-volunteer flying outreach dedicated to meeting the medical, spiritual, and transportation needs of the poor and needy within the capabilities of our aircraft, resources, and the availability and skills of our volunteers.

@@ -1,3 +1,7 @@
+---
+title: "Links"
+---
+
 # Links
 
 {className="mt-4"}[AOPA](http://www.aopa.org/Flight-Planning/Mexico)

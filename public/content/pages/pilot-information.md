@@ -1,3 +1,7 @@
+---
+title: "Pilot Information"
+---
+
 # Pilot Information
 
 {className="mt-4"}With good preparation, flights into and out of Mexico are no problem. The first time is always a bit unfamiliar, but much easier on future trips. The following is a description of general procedures and regulations, with a chronological checklist of how many pilots plan for the trip. Planning ahead makes the process smooth and helps ease any unexpected changes that may occur shortly before the clinic date without causing a crisis. While this information is believed to be correct, it is not fully inclusive of all rules and regulations. Because changes may occur before this website can be updated, pilots are encouraged to review the current conditions listed by other organizations under the “Links” tab, such as AOPA and the Baja Bush Pilots Association. The following outline assumes a route from an airport in the US to Mexicali, MX to Rancho La Magana or Los Pinos (San Quintin area), back to Mexicali, and then to Calexico, CA.

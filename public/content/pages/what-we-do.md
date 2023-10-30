@@ -1,3 +1,7 @@
+---
+title: "What We Do"
+---
+
 # What We Do
 
 {className="float-img right optometrist-img mt-4"}![Optometrist Performing Eye Exam](../../images/what-we-do/wwd-optometrist-img.jpg)
