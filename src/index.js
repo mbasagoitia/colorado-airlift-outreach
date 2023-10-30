@@ -5,7 +5,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CMS from "netlify-cms";
-import configYAML from "./config.yml";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
