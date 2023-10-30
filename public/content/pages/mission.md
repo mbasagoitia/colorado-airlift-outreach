@@ -3,7 +3,7 @@ title: Mission
 ---
 # Mission
 
-{className="mt-4"} Marika is a charitable, Christian faith-based, all-volunteer flying outreach dedicated to meeting the medical, spiritual, and transportation needs of the poor and needy within the capabilities of our aircraft, resources, and the availability and skills of our volunteers.
+{className="mt-4"} CALO is a charitable, Christian faith-based, all-volunteer flying outreach dedicated to meeting the medical, spiritual, and transportation needs of the poor and needy within the capabilities of our aircraft, resources, and the availability and skills of our volunteers.
 
 Our Board members and many of our volunteers are Christian individuals who believe our Lord has directed us to be His hands and heart to all  we meet. We are blessed to be given the opportunity to serve others.  Our mission is to glorify our Lord with all we say and do personally and through our ministry of CALO.  The Word of God is very clear as to how we are expected to present ourselves and the manner in which we are to conduct our lives.  As we plan and execute our missions, we fully intend to obey His direction.
 
