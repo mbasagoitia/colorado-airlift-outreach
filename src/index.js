@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CMS from "netlify-cms";
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
