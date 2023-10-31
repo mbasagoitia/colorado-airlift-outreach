@@ -68,11 +68,6 @@ h1 {
   width: 100%;
 }
 
-.child-img {
-  width: 16rem;
-  height: auto;
-}
-
 .footer {
   color: white;
   background-color: #333333;
@@ -91,7 +86,7 @@ h1 {
   margin: 0;
 }
 
-.wwd img {
+.wwd-img-1, .wwd-img-2 {
   width: 100%;
   min-width: 225px;
 }
@@ -139,6 +134,16 @@ h1 {
   text-align: center;
 }
 
+.mission-img-1, .mission-img-2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.mission-img-1 {
+  margin-top: 1rem;
+}
+
 @media (min-width: 545px) {
   .carousel-item {
     height: 400px;
@@ -166,6 +171,20 @@ h1 {
     height: auto;
     float: left;
     margin: 0 1rem 0 0;
+  }
+
+  .mission-img-1 {
+    width: 16rem;
+    height: auto;
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+  }
+  
+  .mission-img-2 {
+    width: 16rem;
+    height: auto;
+    float: right;
+    margin: 0 0rem 1rem 1rem;
   }
 
   .footer-content {
