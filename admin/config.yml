@@ -20,6 +20,7 @@ collections:
     fields:
     - { name: 'title', label: 'Title', widget: 'string' }
     - { name: 'body', label: 'Body', widget: 'markdown' }  
+    - { name: 'image', label: 'Image', widget: 'image' }
   - name: 'what-we-do'
     label: 'What We Do'
     folder: 'public/content/pages'
@@ -27,7 +28,7 @@ collections:
     fields:
     - { name: 'title', label: 'Title', widget: 'string' }
     - { name: 'body', label: 'Body', widget: 'markdown' }
-    - { name: 'image1', label: 'Image 1', widget: 'image' }
+    - { name: 'image', label: 'Image', widget: 'image' }
   - name: 'clinic-schedule'
     label: 'Clinic Schedule'
     folder: 'public/content/pages'
