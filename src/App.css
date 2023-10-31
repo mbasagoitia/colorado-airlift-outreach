@@ -68,12 +68,12 @@ h1 {
   width: 100%;
 }
 
-.child-img p img {
+.child-img {
   width: 16rem;
   height: auto;
 }
 
-.float-img p img {
+.float-img {
   display: block;
   margin: 1rem auto;
   max-width: 75vw;
@@ -97,7 +97,7 @@ h1 {
   margin: 0;
 }
 
-.optometrist-img p img, .volunteer-img p img {
+.optometrist-img, .volunteer-img {
   width: 100%;
   min-width: 225px;
 }
@@ -146,23 +146,23 @@ h1 {
     padding: 2rem;
   }
 
-  .float-img.left p img {
+  .float-img.left {
     float: left;
     margin: 0 1rem 0 0;
   }
   
-  .float-img.right p img {
+  .float-img.right {
     float: right;
     margin: 0 0 0 1rem;
   }
 
-  .optometrist-img p img {
+  .optometrist-img {
     width: 60vw;
     margin: 0;
     max-width: 750px;
   }
 
-  .volunteer-img p img {
+  .volunteer-img {
     width: 20vw;
     height: auto;
     margin: 0;
@@ -175,7 +175,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  .volunteer-img p img {
+  .volunteer-img {
     width: 3%;
     height: auto;
     margin-bottom: 1rem;
