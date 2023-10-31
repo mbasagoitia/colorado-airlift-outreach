@@ -16,8 +16,11 @@ function MyCustomRenderer(props) {
       } else if (!skipFrontMatter) {
         if (line.match(/\!\[.*\]\(.*\)/)) {
           // Check for lines containing image references
-          const imagePath = line.match(/\!\[.*\]\(([^)]+)\)/)[1];
-          output.push(<img key={output.length} src={imagePath} alt="Image" />);
+          const match = line.match(/\!\[.*\]\(([^)]+)\)/);
+        if (match) {
+        const imagePath = match[1]; // This captures only the image path
+        output.push(<img key={output.length} src={imagePath} alt="Image" />);
+        }
           isWithinParagraph = false;
         } else {
           const parts = line.split('{className="');
