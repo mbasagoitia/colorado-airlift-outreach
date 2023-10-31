@@ -1,7 +1,5 @@
 ---
 title: What We Do
-image1: ../../images/what-we-do/wwd-optometrist-img.jpg
-image2: /images/what-we-do/wwd-img-2.jpg
 ---
 # What We Do
 
