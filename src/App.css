@@ -73,12 +73,6 @@ h1 {
   height: auto;
 }
 
-.float-img {
-  display: block;
-  margin: 1rem auto;
-  max-width: 75vw;
-}
-
 .footer {
   color: white;
   background-color: #333333;
@@ -97,9 +91,17 @@ h1 {
   margin: 0;
 }
 
-.optometrist-img, .volunteer-img {
+.wwd img {
   width: 100%;
   min-width: 225px;
+}
+
+.wwd-img-1 {
+  margin-top: 1rem;
+}
+
+.wwd-img-2 {
+  margin: 1rem 0;
 }
 
 .img-wrapper {
@@ -146,26 +148,24 @@ h1 {
     padding: 2rem;
   }
 
-  .float-img.left {
-    float: left;
-    margin: 0 1rem 0 0;
-  }
-  
-  .float-img.right {
+  .wwd-img-1 {
+    display: block;
+    margin: 1rem auto;
+    max-width: 75vw;
+    width: 60vw;
+    max-width: 750px;
     float: right;
     margin: 0 0 0 1rem;
   }
 
-  .optometrist-img {
-    width: 60vw;
-    margin: 0;
-    max-width: 750px;
-  }
-
-  .volunteer-img {
+  .wwd-img-2 {
+    display: block;
+    margin: 1rem auto;
+    max-width: 75vw;
     width: 20vw;
     height: auto;
-    margin: 0;
+    float: left;
+    margin: 0 1rem 0 0;
   }
 
   .footer-content {
@@ -175,7 +175,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  .volunteer-img {
+  .wwd-img-2 {
     width: 3%;
     height: auto;
     margin-bottom: 1rem;
