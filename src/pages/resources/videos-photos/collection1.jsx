@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from 'react';
-import React from 'react';
-
 function PhotoCollection1(props) {
   const { title, images } = props;
 
