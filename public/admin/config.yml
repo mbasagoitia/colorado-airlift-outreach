@@ -69,7 +69,7 @@ collections:
     fields:
     - { name: 'title', label: 'Title', widget: 'string' }
     - { name: 'body', label: 'Body', widget: 'markdown' }
-  - name: 'videos-photos-collection1'
+  - name: 'resources/videos-and-photos/collection1'
     label: 'Videos and Photos Collection 1'
     folder: 'public/content/pages/resources/videos-and-photos'
     create: true
