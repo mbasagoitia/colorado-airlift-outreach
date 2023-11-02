@@ -1,3 +1,5 @@
+import React from "react";
+
 function PhotoCollection1(props) {
   const { title, images } = props;
   console.log(props);
@@ -13,7 +15,7 @@ function PhotoCollection1(props) {
 
   return (
     <div>
-      <h1>{title}</h1>
+      <h1>Collection 1</h1>
       <div className="image-container">
         {defaultImages.map((image, index) => (
           <img key={index} src={image.path} alt={image.alt} />
