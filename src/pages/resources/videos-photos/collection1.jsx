@@ -13,7 +13,7 @@ function PhotoCollection1(props) {
   console.log(defaultImages);
 
   // Combine the default images with user-uploaded images
-  const allImages = [...defaultImages, ...images];
+//   const allImages = [...defaultImages, ...images];
 
   return (
     <div>
