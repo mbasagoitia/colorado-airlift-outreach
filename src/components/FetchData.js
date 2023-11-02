@@ -8,7 +8,6 @@ function FetchData() {
 
     const [photoData, setPhotoData] = useState({
         title: "Photo Collection 1",
-        description: "Collection Description",
         images: defaultImages
     });
 

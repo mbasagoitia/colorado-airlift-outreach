@@ -71,19 +71,17 @@ collections:
     fields:
     - { name: 'title', label: 'Title', widget: 'string' }
     - { name: 'body', label: 'Body', widget: 'markdown' }
-  - name: 'collection-1'
+  - name: 'collection1'
     label: 'Videos and Photos Collection 1'
     folder: 'public/content/pages/resources/videos-and-photos'
     create: true
     fields:
     - { name: 'title', label: 'Title', widget: 'string' }
     - { name: 'body', label: 'Body', widget: 'markdown' }
-    - { name: 'image', label: 'Image', widget: 'image' }
-  #   - { name: 'title', label: 'Title', widget: 'string' }
-  #   - { name: 'body', label: 'Body', widget: 'markdown' }
-  #   - { name: 'images', label: 'Images', widget: 'list', fields: 
-  #   [{ name: 'image', label: 'Image', widget: 'image' }],
-  # }
+    - { name: 'images', label: 'Images', widget: 'list', fields: [
+      { label: 'Image', name: 'image', widget: 'image' }
+    ]
+  }
 
 site_config:
   name: 'site-config'
