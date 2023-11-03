@@ -7,7 +7,7 @@ import frontMatter from "front-matter";
 
 function PhotoCollection1() {
     
-    const [markdownContent, setMarkdownContent] = useState("");
+    const [imagePaths, setImagePaths] = useState("");
 
     useEffect(() => {
         const markdownFilePath = "/content/pages/resources/videos-and-photos/collection1.md";
@@ -21,17 +21,12 @@ function PhotoCollection1() {
         })
         .then((data) => {
             let frontMatterData = frontMatter(data);
-            console.log(frontMatterData.attributes.images);
-            setMarkdownContent(frontMatterData);
+            setImagePaths(frontMatterData.attributes.images.map((image) => image.image));
         })
         .catch((err) => {
             console.error(err)
         })
     }, [])
-
-
-  // Extract image paths from the front matter
-//   const imagePaths = markdownContent.attributes.images.map((image) => image.image);
 
   return (
     <Container fluid>
@@ -42,10 +37,10 @@ function PhotoCollection1() {
             </div>
             <div className="page-content">
                 <div className="image-container">
-                {/* Render images 
+                {/* Render images */}
                 {imagePaths.map((imagePath, index) => (
                 <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
-                ))} */}
+                ))}
                 </div>
             </div>
         <Footer />
