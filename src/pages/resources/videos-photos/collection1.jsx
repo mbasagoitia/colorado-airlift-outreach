@@ -21,7 +21,7 @@ function PhotoCollection1() {
         })
         .then((data) => {
             let frontMatterData = frontMatter(data);
-            console.log(frontMatterData);
+            console.log(frontMatterData.attributes.images);
             setMarkdownContent(frontMatterData);
         })
         .catch((err) => {
@@ -31,7 +31,7 @@ function PhotoCollection1() {
 
 
   // Extract image paths from the front matter
-  const imagePaths = markdownContent.attributes.images.map((image) => image.image);
+//   const imagePaths = markdownContent.attributes.images.map((image) => image.image);
 
   return (
     <Container fluid>
@@ -42,10 +42,10 @@ function PhotoCollection1() {
             </div>
             <div className="page-content">
                 <div className="image-container">
-                {/* Render images */}
+                {/* Render images 
                 {imagePaths.map((imagePath, index) => (
                 <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
-                ))}
+                ))} */}
                 </div>
             </div>
         <Footer />
