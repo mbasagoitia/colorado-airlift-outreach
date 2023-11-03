@@ -3,7 +3,7 @@ import Header from "../../../components/Header";
 import Navigation from "../../../components/Navigation";
 import Footer from "../../../components/Footer";
 import React, { useState, useEffect } from "react";
-import grayMatter from "gray-matter";
+import frontMatter from "front-matter";
 
 function PhotoCollection1() {
     
@@ -20,7 +20,7 @@ function PhotoCollection1() {
             return res.text();
         })
         .then((data) => {
-            let newData = grayMatter(data);
+            let newData = frontMatter(data);
             console.log(newData);
             setMarkdownContent(newData);
         })
