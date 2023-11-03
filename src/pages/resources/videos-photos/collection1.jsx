@@ -39,7 +39,7 @@ function PhotoCollection1() {
             </div>
             <div className="page-content">
                 <div className="image-container">
-                {defaultImages.length > 1 ? defaultImages.map((imagePath, index) => (
+                {defaultImages.length > 0 ? defaultImages.map((imagePath, index) => (
                 <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
                 )): null}
                 {imagePaths ? imagePaths.map((imagePath, index) => (
