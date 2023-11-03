@@ -21,6 +21,7 @@ function PhotoCollection1() {
         })
         .then((data) => {
             console.log(data);
+            console.log(grayMatter(data));
             setMarkdownContent(grayMatter(data));
         })
         .catch((err) => {
