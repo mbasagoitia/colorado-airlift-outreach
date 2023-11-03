@@ -2,16 +2,16 @@ import React from 'react';
 
 function PhotoCollection1({ data }) {
   // Extract image paths from the front matter
-  const defaultImages = [
-    data.image1,
-    data.image2,
-    // Add more default image paths here
-  ];
+//   const defaultImages = [
+//     data.image1,
+//     data.image2,
+//     // Add more default image paths here
+//   ];
 
   return (
     <div>
     <p>Collection 1 p tag</p>
-      <h1>{data.title}</h1>
+      {/* <h1>{data.title}</h1> */}
       <div className="image-container">
         {/* Render default images
         {defaultImages.map((imagePath, index) => (
