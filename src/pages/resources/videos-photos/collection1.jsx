@@ -20,8 +20,9 @@ function PhotoCollection1({ data }) {
 
         {/* Render user-uploaded images */}
         {data.images.map((imagePath, index) => (
-          <img key={index + defaultImages.length} src={imagePath} alt={`User Image ${index + 1}`} />
+          <img key={index} src={imagePath} alt={`User Image ${index + 1}`} />
         ))}
+                    {/* key={index + defaultImages.length} */}
       </div>
     </div>
   );
