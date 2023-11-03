@@ -22,7 +22,7 @@ function PhotoCollection1() {
         .then((data) => {
             let frontMatterData = frontMatter(data);
             console.log(frontMatterData.attributes.images.map((image) => image.image));
-            // setImagePaths(frontMatterData.attributes.images.map((image) => image.image));
+            setImagePaths(frontMatterData.attributes.images.map((image) => image.image));
         })
         .catch((err) => {
             console.error(err)
@@ -38,10 +38,9 @@ function PhotoCollection1() {
             </div>
             <div className="page-content">
                 <div className="image-container">
-                {/* Render images 
-                {imagePaths.map((imagePath, index) => (
+                {imagePaths ? imagePaths.map((imagePath, index) => (
                 <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
-                ))} */}
+                )): null}
                 </div>
             </div>
         <Footer />
