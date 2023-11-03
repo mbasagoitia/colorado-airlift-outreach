@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
-import Header from "../../components/Header";
-import Navigation from "../../components/Navigation";
-import Footer from "../../components/Footer";
+import Header from "../../../components/Header";
+import Navigation from "../../../components/Navigation";
+import Footer from "../../../components/Footer";
 import React, { useState, useEffect } from "react";
 import grayMatter from "gray-matter";
 
