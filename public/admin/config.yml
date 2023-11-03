@@ -75,7 +75,7 @@ collections:
     create: true
     fields:
     - { name: 'title', label: 'Title', widget: 'string' }
-    - { name: 'body', label: 'Body', widget: 'markdown' }
+    # - { name: 'body', label: 'Body', widget: 'markdown' }
     - { name: 'images', label: 'Images', widget: 'list', fields: 
     [{ name: 'image', label: 'Image', widget: 'image' }],
   }
