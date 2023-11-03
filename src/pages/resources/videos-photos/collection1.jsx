@@ -1,6 +1,7 @@
 import React from 'react';
 
-function PhotoCollection1({ data }) {
+function PhotoCollection1(data) {
+    console.log(data);
   // Extract image paths from the front matter
 //   const defaultImages = [
 //     data.image1,
