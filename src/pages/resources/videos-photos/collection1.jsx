@@ -20,6 +20,7 @@ function PhotoCollection1() {
             return res.text();
         })
         .then((data) => {
+            console.log(data);
             setMarkdownContent(grayMatter(data));
         })
         .catch((err) => {
