@@ -1,31 +1,53 @@
-import React from 'react';
+import { Container } from "react-bootstrap";
+import Header from "../../components/Header";
+import Navigation from "../../components/Navigation";
+import Footer from "../../components/Footer";
+import React, { useState, useEffect } from "react";
+import grayMatter from "gray-matter";
 
-function PhotoCollection1(data) {
-    console.log(data);
+function PhotoCollection1() {
+    
+    const [markdownContent, setMarkdownContent] = useState("");
+
+    useEffect(() => {
+        const markdownFilePath = "/content/pages/resources/videos-and-photos/collection1.md";
+
+        fetch(markdownFilePath)
+        .then((res) => {
+            if (!res.ok) {
+                throw new Error("Network response error")
+            }
+            return res.text();
+        })
+        .then((data) => {
+            setMarkdownContent(grayMatter(data));
+        })
+        .catch((err) => {
+            console.error(err)
+        })
+    }, [])
+
+
   // Extract image paths from the front matter
-//   const defaultImages = [
-//     data.image1,
-//     data.image2,
-//     // Add more default image paths here
-//   ];
+  const imagePaths = markdownContent.images.map((image) => image.image);
 
   return (
-    <div>
-    <p>Collection 1 p tag</p>
-      {/* <h1>{data.title}</h1> */}
-      <div className="image-container">
-        {/* Render default images
-        {defaultImages.map((imagePath, index) => (
-          <img key={index} src={imagePath} alt={`Default Image ${index + 1}`} />
-        ))} */}
-
-        {/* Render user-uploaded images */}
-        {data.images.map((imagePath, index) => (
-          <img key={index} src={imagePath} alt={`User Image ${index + 1}`} />
-        ))}
-                    {/* key={index + defaultImages.length} */}
-      </div>
-    </div>
+    <Container fluid>
+        <Header />
+            <Navigation />
+            <div className="full-page-img">
+                <img src="/images/resources/emergency-contacts-header.jpg" alt="CALO team" className="header-img" />
+            </div>
+            <div className="page-content">
+                <div className="image-container">
+                {/* Render images */}
+                {imagePaths.map((imagePath, index) => (
+                <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
+                ))}
+                </div>
+            </div>
+        <Footer />
+    </Container>
   );
 }
 
