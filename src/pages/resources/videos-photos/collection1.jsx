@@ -9,8 +9,10 @@ function PhotoCollection1() {
     
     const [imagePaths, setImagePaths] = useState("");
 
+    // Add the paths of the images you want to render
     const defaultImages = ["/images/home/hp-img-1.JPG"];
 
+    // When the user uploads images, they will be fetched and displayed on this page
     useEffect(() => {
         const markdownFilePath = "/content/pages/resources/videos-and-photos/collection1.md";
 
@@ -39,11 +41,13 @@ function PhotoCollection1() {
             </div>
             <div className="page-content">
                 <div className="image-container">
+                    {/* Default images */}
                 {defaultImages.length > 0 ? defaultImages.map((imagePath, index) => (
                 <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
                 )): null}
+                    {/* User uploaded images */}
                 {imagePaths ? imagePaths.map((imagePath, index) => (
-                <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
+                <img key={defaultImages.length + index} src={imagePath} alt={`Image ${index + 1}`} />
                 )): null}
                 </div>
             </div>
