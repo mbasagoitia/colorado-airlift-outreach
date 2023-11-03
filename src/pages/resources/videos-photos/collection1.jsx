@@ -20,9 +20,9 @@ function PhotoCollection1() {
             return res.text();
         })
         .then((data) => {
-            console.log(data);
-            console.log("grayMatter:", grayMatter(data));
-            setMarkdownContent(grayMatter(data));
+            let newData = grayMatter(data);
+            console.log(newData);
+            setMarkdownContent(newData);
         })
         .catch((err) => {
             console.error(err)
