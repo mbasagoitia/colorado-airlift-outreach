@@ -9,6 +9,8 @@ function PhotoCollection1() {
     
     const [imagePaths, setImagePaths] = useState("");
 
+    const defaultImages = ["/images/home/hp-img-1.JPG"];
+
     useEffect(() => {
         const markdownFilePath = "/content/pages/resources/videos-and-photos/collection1.md";
 
@@ -21,7 +23,6 @@ function PhotoCollection1() {
         })
         .then((data) => {
             let frontMatterData = frontMatter(data);
-            console.log(frontMatterData.attributes.images.map((image) => image.image));
             setImagePaths(frontMatterData.attributes.images.map((image) => image.image));
         })
         .catch((err) => {
@@ -38,6 +39,9 @@ function PhotoCollection1() {
             </div>
             <div className="page-content">
                 <div className="image-container">
+                {defaultImages.length > 1 ? defaultImages.map((imagePath, index) => (
+                <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
+                )): null}
                 {imagePaths ? imagePaths.map((imagePath, index) => (
                 <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
                 )): null}
