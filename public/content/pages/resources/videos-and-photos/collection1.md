@@ -1,8 +1,7 @@
 ---
 title: Collection 1
-images:
-  - image: /images/image1.jpg
-  - image: /images/image2.jpg
+image1: '/images/default-image-1.jpg'
+image2: '/images/default-image-2.jpg'
 ---
-# Collection 1
 
+# Collection 1

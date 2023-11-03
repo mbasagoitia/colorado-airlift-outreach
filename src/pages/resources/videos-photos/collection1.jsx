@@ -1,31 +1,29 @@
-import React from "react";
+import React from 'react';
 
-function PhotoCollection1(props) {
-  const { title, images } = props;
-  console.log("props:", props);
-
-  // Default images
+function PhotoCollection1({ data }) {
+  // Extract image paths from the front matter
   const defaultImages = [
-    { path: '/path/to/default-image-1.jpg', alt: 'Default Image 1' },
-    { path: '/path/to/default-image-2.jpg', alt: 'Default Image 2' },
+    data.image1,
+    data.image2,
+    // Add more default image paths here
   ];
-
-  console.log(defaultImages);
-
-  // Combine the default images with user-uploaded images
-//   const allImages = [...defaultImages, ...images];
 
   return (
     <div>
-      <h1>Collection 1</h1>
+      <h1>{data.title}</h1>
       <div className="image-container">
-        {defaultImages.map((image, index) => (
-          <img src={image.path} alt={image.alt} />
+        {/* Render default images */}
+        {defaultImages.map((imagePath, index) => (
+          <img key={index} src={imagePath} alt={`Default Image ${index + 1}`} />
+        ))}
+
+        {/* Render user-uploaded images */}
+        {data.images.map((imagePath, index) => (
+          <img key={index + defaultImages.length} src={imagePath} alt={`User Image ${index + 1}`} />
         ))}
       </div>
     </div>
   );
-
 }
 
 export default PhotoCollection1;
