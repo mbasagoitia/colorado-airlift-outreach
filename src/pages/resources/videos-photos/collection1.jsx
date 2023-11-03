@@ -10,6 +10,7 @@ function PhotoCollection1({ data }) {
 
   return (
     <div>
+    <p>Collection 1 p tag</p>
       <h1>{data.title}</h1>
       <div className="image-container">
         {/* Render default images */}
