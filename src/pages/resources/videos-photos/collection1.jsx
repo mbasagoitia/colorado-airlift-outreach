@@ -32,6 +32,8 @@ function PhotoCollection1() {
         })
     }, [])
 
+    const allImages = [...defaultImages, ...imagePaths];
+
   return (
     <Container fluid>
         <Header />
@@ -42,13 +44,7 @@ function PhotoCollection1() {
             <div className="page-content">
                 <div className="image-container">
                     {/* Default images */}
-                {defaultImages.length > 0 ? defaultImages.map((imagePath, index) => (
-                <img key={index} src={imagePath} alt={`Image ${index + 1}`} />
-                )): null}
-                    {/* User uploaded images */}
-                {imagePaths ? imagePaths.map((imagePath, index) => (
-                <img key={defaultImages.length + index} src={imagePath} alt={`Image ${index + 1}`} />
-                )): null}
+                {allImages.map((imagePath, index) => <img key={index} src={imagePath} alt={`Image ${index + 1}`} />)}
                 </div>
             </div>
         <Footer />
