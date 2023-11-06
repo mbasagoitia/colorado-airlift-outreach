@@ -1,6 +1,5 @@
 ---
-title: Collection 1
+title: Team of Airplanes
 images:
-  - image: /images/fantasy forest.jpg
 ---
 

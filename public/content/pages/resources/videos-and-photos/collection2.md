@@ -1,0 +1,5 @@
+---
+title: Colorado Team
+images:
+---
+

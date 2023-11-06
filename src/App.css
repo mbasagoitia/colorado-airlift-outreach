@@ -153,7 +153,7 @@ h1 {
 }
 
 .photo-grid-item {
-  cursor: pointer;
+  cursor: zoom-in;
   position: relative;
 }
 
