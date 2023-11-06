@@ -26,6 +26,7 @@ function PhotoCollection({ defaultImages, collection }) {
         .then((data) => {
             let frontMatterData = frontMatter(data);
             console.log("frontMatterData:", frontMatterData);
+            console.log(frontMatterData.attributes.title);
             setImagePaths(frontMatterData.attributes.images.length > 0 ? frontMatterData.attributes.images.map((image) => image.image) : null);
             setTitle(frontMatterData.attributes.title);
         })
@@ -35,6 +36,10 @@ function PhotoCollection({ defaultImages, collection }) {
     }, [])
 
     const allImages = [...defaultImages, ...imagePaths];
+
+    if (!title || allImages.length === 0) {
+        return <div>Loading...</div>
+    }
 
     return (
         <Container fluid>
