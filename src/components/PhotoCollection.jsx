@@ -9,7 +9,7 @@ import PhotoGrid from "./PhotoGrid";
 function PhotoCollection({ defaultImages, collection }) {
     
     const [title, setTitle] = useState("");
-    const [imagePaths, setImagePaths] = useState("");
+    const [imagePaths, setImagePaths] = useState([]);
 
     // Fetch and display images from the corresponding markdown file, which is updated every time a user uploads an image
 
