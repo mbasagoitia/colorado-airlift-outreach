@@ -37,6 +37,10 @@ function PhotoCollection({ defaultImages, collection }) {
 
     const allImages = [...defaultImages, ...imagePaths];
 
+    if (!title || allImages.length === 0) {
+        return <div>Loading...</div>
+    }
+
     return (
         <Container fluid>
             <Header />
@@ -45,7 +49,7 @@ function PhotoCollection({ defaultImages, collection }) {
                 <img src="/images/resources/emergency-contacts-header.jpg" alt="CALO team" className="header-img" />
             </div>
             <div className="page-content">
-                <h1>{title ? title: null}</h1>
+                <h1>{title}</h1>
                 <p className="text-muted">Click on any photo to enlarge</p>
                 <PhotoGrid images={allImages} />
             </div>
