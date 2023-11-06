@@ -6,17 +6,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import netlifyIdentity from 'netlify-identity-widget';
 
-netlifyIdentity.init({
-  container: '#netlify-modal', // A DOM element to render the modal dialog
-});
+netlifyIdentity.init();
 
-netlifyIdentity.on('login', (user) => {
-  // Do something when the user logs in
-});
-
-netlifyIdentity.on('logout', () => {
-  // Do something when the user logs out
-});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
