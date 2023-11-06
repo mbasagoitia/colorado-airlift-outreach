@@ -25,8 +25,8 @@ function PhotoCollection({ defaultImages, collection }) {
         })
         .then((data) => {
             let frontMatterData = frontMatter(data);
-            setImagePaths(frontMatterData.attributes.images.map((image) => image.image));
-            console.log(frontMatterData);
+            console.log("frontMatterData:", frontMatterData);
+            setImagePaths(frontMatterData.attributes.images.length > 0 ? frontMatterData.attributes.images.map((image) => image.image) : null);
             setTitle(frontMatterData.attributes.title);
         })
         .catch((err) => {
