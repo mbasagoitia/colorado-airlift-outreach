@@ -12,7 +12,7 @@ function PhotoCollection({ defaultImages, collection }) {
     const [imagePaths, setImagePaths] = useState("");
 
     // Fetch and display images from the corresponding markdown file, which is updated every time a user uploads an image
-    
+
     useEffect(() => {
         const markdownFilePath = `/content/pages/resources/videos-and-photos/${collection}.md`;
 
@@ -26,7 +26,8 @@ function PhotoCollection({ defaultImages, collection }) {
         .then((data) => {
             let frontMatterData = frontMatter(data);
             setImagePaths(frontMatterData.attributes.images.map((image) => image.image));
-            setTitle(frontMatter.attributes.title);
+            console.log(frontMatterData);
+            setTitle(frontMatterData.attributes.title);
         })
         .catch((err) => {
             console.error(err)
