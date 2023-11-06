@@ -7,10 +7,6 @@ import reportWebVitals from './reportWebVitals';
 import netlifyIdentity from "netlify-identity-widget";
 import jsyaml from "js-yaml";
 
-netlifyIdentity.init();
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
