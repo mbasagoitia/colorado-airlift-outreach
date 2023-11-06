@@ -17,7 +17,6 @@ netlifyIdentity.on('login', (user) => {
 netlifyIdentity.on('logout', () => {
   // Do something when the user logs out
 });
-netlifyIdentity.open();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
