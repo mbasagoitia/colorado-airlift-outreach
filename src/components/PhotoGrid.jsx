@@ -24,7 +24,7 @@ function PhotoGrid({ images }) {
 
   return (
     <div className="photo-grid">
-      <video width="400" controls><source src={"/images/resources/videos-photos/vp-img-50.mov"} type={"video/mp4"} /></video>
+      <video width="400" controls><source src={"/images/resources/videos-photos/vp-img-50.mp4"} type={"video/mp4"} /></video>
       {images.map((image, index) => {
       const fileExtension = image.split('.').pop().toLowerCase();
 
@@ -37,7 +37,6 @@ function PhotoGrid({ images }) {
           >
             <video controls>
               <source src={image} type={"video/mp4"} />
-              <source src={image} type={"video/webm"} />
               Your browser does not support the video tag.
             </video>
           </div>
