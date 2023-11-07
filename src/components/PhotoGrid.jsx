@@ -24,11 +24,10 @@ function PhotoGrid({ images }) {
 
   return (
     <div className="photo-grid">
-      <video width="400" controls><source src={"/images/resources/videos-photos/vp-img-50.mp4"} type={"video/mp4"} /></video>
       {images.map((image, index) => {
       const fileExtension = image.split('.').pop().toLowerCase();
 
-      if (['mov', 'mp4'].includes(fileExtension)) {
+      if (['mp4'].includes(fileExtension)) {
         return (
           <div
             className="photo-grid-item"
