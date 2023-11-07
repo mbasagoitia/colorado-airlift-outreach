@@ -157,7 +157,7 @@ h1 {
   position: relative;
 }
 
-.photo-grid-item img {
+.photo-grid-item img, .photo-grid-item video {
   max-width: 100%;
   border-radius: 5px;
   height: auto;
