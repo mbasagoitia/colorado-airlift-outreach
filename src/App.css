@@ -166,7 +166,7 @@ h1 {
 .photo-preview-2 {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
   z-index: 0;
   transform: rotate(5deg);
 }
