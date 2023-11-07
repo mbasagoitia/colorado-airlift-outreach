@@ -24,15 +24,34 @@ function PhotoGrid({ images }) {
 
   return (
     <div className="photo-grid">
-      {images.map((image, index) => (
-        <div
-          className="photo-grid-item"
-          key={index}
-          onClick={() => openLightbox(index)}
-        >
-          <img src={image} alt={`Image ${index}`} />
-        </div>
-      ))}
+      {images.map((image, index) => {
+      const fileExtension = image.split('.').pop().toLowerCase();
+
+      if (['mov', 'mp4'].includes(fileExtension)) {
+        return (
+          <div
+            className="photo-grid-item"
+            key={index}
+            onClick={() => openLightbox(index)}
+          >
+            <video controls>
+              <source src={image} type={`video/${fileExtension}`} />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        );
+      } else {
+        return (
+          <div
+            className="photo-grid-item"
+            key={index}
+            onClick={() => openLightbox(index)}
+          >
+            <img src={image} alt={`Image ${index}`} />
+          </div>
+        );
+      }
+    })}
 
       {lightboxIsOpen && (
         <div className="lightbox">
