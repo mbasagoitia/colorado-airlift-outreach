@@ -2,7 +2,12 @@ import PhotoCollection from "../../../components/PhotoCollection";
 
 // Team of airplanes
 
-const defaultImages = ["/images/home/hp-img-1.JPG"];
+const defaultImages = [
+    "/images/resources/videos-photos/vp-img-11.jpg",
+    "/images/resources/videos-photos/vp-img-51.jpg",
+    "/images/resources/videos-photos/vp-img-50.mov"
+];
+
 const collection = "collection1";
 
 function Collection1() {
