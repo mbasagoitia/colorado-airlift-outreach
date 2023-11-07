@@ -6,9 +6,11 @@ function PhotoPreviews({ title, photo1, photo2 }) {
       <div className="photo-preview photo-preview-1">
         <img src={photo1} alt="Small Preview 1" />
       </div>
-      <div className="photo-preview photo-preview-2">
+      {photo2 ? (
+        <div className="photo-preview photo-preview-2">
         <img src={photo2} alt="Small Preview 2" />
-      </div>
+        </div>
+      ): null}
       <div className="title">{title}</div>
     </div>
   );

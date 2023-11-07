@@ -173,6 +173,7 @@ h1 {
 
 .title {
   margin-top: 10px;
+  text-decoration: none;
 }
 
 /* Styles for the photo grid */

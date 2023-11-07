@@ -21,13 +21,13 @@ function VideosAndPhotos () {
             <h1>Videos and Photos</h1>
             <div className="collection-link-container d-flex">
                 <Link to={"team-of-airplanes"}><PhotoPreviews title={"Team of Airplanes"} photo1={firstPhotos[0]} photo2={secondPhotos[0]}/></Link>
-                <Link to={"colorado-team"}>Colorado Team</Link>
-                <Link to={"flying-to-mexico"}>Flying to Mexico</Link>
-                <Link to={"patients-waiting-for-eye-clinic"}>Patients Waiting for Eye Clinic</Link>
-                <Link to={"optometry-clinic"}>Optometry Clinic</Link>
-                <Link to={"eye-surgery-clinic"}>Eye Surgery Clinic</Link>
-                <Link to={"spiritual-ministry"}>Spiritual Ministry</Link>
-                <Link to={"celebrating-a-successful-clinic"}>Celebrating a Successful Clinic</Link>
+                <Link to={"colorado-team"}><PhotoPreviews title={"Colorado Team"} photo1={firstPhotos[1]} photo2={secondPhotos[1]}/></Link>
+                <Link to={"flying-to-mexico"}><PhotoPreviews title={"Flying to Mexico"} photo1={firstPhotos[2]} photo2={secondPhotos[2]}/></Link>
+                <Link to={"patients-waiting-for-eye-clinic"}><PhotoPreviews title={"Patients Waiting for Eye Clinic"} photo1={firstPhotos[3]} photo2={secondPhotos[3]}/></Link>
+                <Link to={"optometry-clinic"}><PhotoPreviews title={"Optometry Clinic"} photo1={firstPhotos[4]} photo2={secondPhotos[4]}/></Link>
+                <Link to={"eye-surgery-clinic"}><PhotoPreviews title={"Eye Surgery Clinic"} photo1={firstPhotos[5]} photo2={secondPhotos[5]}/></Link>
+                <Link to={"spiritual-ministry"}><PhotoPreviews title={"Spiritual Ministry"} photo1={firstPhotos[6]} photo2={secondPhotos[6]}/></Link>
+                <Link to={"celebrating-a-successful-clinic"}><PhotoPreviews title={"Celebrating a Successful Clinic"} photo1={firstPhotos[7]} photo2={secondPhotos[7]}/></Link>
             </div>
         </div>
         <Footer />
