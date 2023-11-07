@@ -24,6 +24,7 @@ function PhotoGrid({ images }) {
 
   return (
     <div className="photo-grid">
+      <video width="400" controls><source src="/images/resources/videos-photos/vp-img-50.mov" type="video/mov" /></video>
       {images.map((image, index) => {
       const fileExtension = image.split('.').pop().toLowerCase();
 
