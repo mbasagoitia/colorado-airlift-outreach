@@ -36,7 +36,8 @@ function PhotoGrid({ images }) {
             onClick={() => openLightbox(index)}
           >
             <video controls>
-              <source src={image} type={`video/mp4`} />
+              <source src={image} type={"video/mp4"} />
+              <source src={image} type={"video/webm"} />
               Your browser does not support the video tag.
             </video>
           </div>
