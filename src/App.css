@@ -146,6 +146,10 @@ h1 {
 
 /* Styles for the photo previews */
 
+.collection-link-container a {
+  text-decoration: none;
+}
+
 .photo-previews-container {
   display: flex;
   flex-direction: column;
@@ -175,7 +179,6 @@ h1 {
 
 .title {
   margin-top: 10px;
-  text-decoration: none;
 }
 
 /* Styles for the photo grid */
