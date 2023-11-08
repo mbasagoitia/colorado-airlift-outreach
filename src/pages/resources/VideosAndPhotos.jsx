@@ -40,7 +40,7 @@ function VideosAndPhotos () {
         {
             title: "Spiritual Ministry",
             photo1: "/images/resources/videos-photos/vp-img-2.jpg",
-            photo2: "/images/resources/videos-photos/vp-img-48.mp4"
+            photo2: null
         },
         {
             title: "Celebrating a Successful Clinic",
@@ -58,7 +58,7 @@ function VideosAndPhotos () {
         </div>
         <div className="page-content">
             <h1>Videos and Photos</h1>
-            <div className="collection-link-container d-flex">
+            <div className="collection-link-container">
                 {linkInfo.map((obj) => {
                     return <PhotoPreviews title={obj.title} link={obj.title.toLowerCase().split(" ").join("-")} photo1={obj.photo1} photo2={obj.photo2}/>
                 })}
