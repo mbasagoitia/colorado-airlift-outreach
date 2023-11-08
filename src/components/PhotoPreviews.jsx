@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-function PhotoPreviews({ title, photo1, photo2 }) {
+function PhotoPreviews({ title, link, photo1, photo2 }) {
   return (
+    <Link to={link}>
     <div className="photo-previews-container">
       <div className="photo-preview photo-preview-1">
         <img src={photo1} alt="Small Preview 1" />
@@ -13,6 +15,7 @@ function PhotoPreviews({ title, photo1, photo2 }) {
       ): null}
       <div className="title">{title}</div>
     </div>
+    </Link>
   );
 }
 
