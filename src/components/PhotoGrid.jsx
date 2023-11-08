@@ -23,7 +23,7 @@ function PhotoGrid({ images }) {
   };
 
   return (
-    <div className="photo-grid">
+    <div className="photo-grid mt-4">
       {images.map((image, index) => {
         const fileExtension = image.split('.').pop().toLowerCase();
 
