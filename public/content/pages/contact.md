@@ -11,7 +11,7 @@ Colorado AirLift Outreach
 [rickweaver21@gmail.com](mailto:rickweaver21@gmail.com)
 970-209-8706
 
----
+***
 
 **By Mail**
 
@@ -19,7 +19,7 @@ Colorado AirLift Outreach
 P.O. Box 954
 Montrose, CO 81402
 
----
+***
 
 **By Physical Address**
 
@@ -29,7 +29,7 @@ C/O Vision Source, Attn. Dr. Wesley Cooper
 Montrose, CO 81401
 Site Phone Number: 970-249-3914
 
----
+***
 
 **CALO Board Members**
 
