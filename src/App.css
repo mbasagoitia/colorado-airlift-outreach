@@ -59,12 +59,13 @@ h1 {
   object-fit: cover;
 }
 
-.page-content, .hp-nonprofit-text {
+.page-content {
   padding: 1rem;
+  max-width: 100vw;
 }
 
-.page-content {
-  max-width: 100vw;
+.hp-nonprofit-text {
+  margin-top: 1rem;
 }
 
 .img-text-container {

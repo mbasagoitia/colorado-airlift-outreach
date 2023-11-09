@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import MyCustomRenderer from "../CustomRenderer";
+import ContentRenderer from "../ContentRenderer";
 import React, { useState, useEffect } from "react";
 
 function WhatWeDo () {
@@ -35,7 +35,7 @@ function WhatWeDo () {
             <img src="/images/what-we-do/wwd-header.jpg" alt="CALO team standing near airplane" className="header-img" />
         </div>
         <div className="page-content wwd mb-4">
-            <MyCustomRenderer content={markdownContent} />
+            <ContentRenderer content={markdownContent} />
         </div>        
         <Footer />
         </Container>

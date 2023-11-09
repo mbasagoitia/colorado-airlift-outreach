@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import MyCustomRenderer from "../CustomRenderer";
+import ContentRenderer from "../ContentRenderer";
 import React, { useState, useEffect } from "react";
 
 function Mission () {
@@ -34,7 +34,7 @@ function Mission () {
             <img src="/images/mission/mp-header-img.jpg" alt="row of airplanes" className="header-img" />
         </div>
         <div className="page-content mission">
-            <MyCustomRenderer content={markdownContent} />
+            <ContentRenderer content={markdownContent} />
         </div>
         <Footer />
         </Container>

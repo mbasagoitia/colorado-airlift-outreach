@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Header from "../../components/Header";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
-import MyCustomRenderer from "../../CustomRenderer";
+import ContentRenderer from "../../ContentRenderer";
 import React, { useState, useEffect } from "react";
 
 function Links () {
@@ -35,7 +35,7 @@ function Links () {
             <img src="/images/resources/links-header-img.jpg" alt="view of the mountains" className="header-img" />
         </div>
         <div className="page-content">
-            <MyCustomRenderer content={markdownContent} />
+            <ContentRenderer content={markdownContent} />
         </div>
         <Footer />
         </Container>

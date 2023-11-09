@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import ImageSlider from "../components/ImageSlider";
 import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
-import MyCustomRenderer from "../CustomRenderer";
+import ContentRenderer from "../ContentRenderer";
 import React, { useState, useEffect } from "react";
 
 function Home () {
@@ -34,10 +34,10 @@ function Home () {
             <Navigation />
             <ImageSlider />
             <div className="page-content">
-                <MyCustomRenderer content={markdownContent} />
+                <ContentRenderer content={markdownContent} />
+                <hr></hr>
+                <p className="hp-nonprofit-text">CALO is a Christian, faith-based 501(c)(3) non-profit organization.</p>
             </div>
-            <hr></hr>
-            <p className="hp-nonprofit-text">CALO is a Christian, faith-based 501(c)(3) non-profit organization.</p>
         </Container>
         <Footer />
         </>

@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import MyCustomRenderer from "../CustomRenderer";
+import ContentRenderer from "../ContentRenderer";
 import React, { useState, useEffect } from "react";
 
 function PilotInformation () {
@@ -35,7 +35,7 @@ function PilotInformation () {
             <img src="/images/resources/pilot-header-img.png" alt="airplane" className="header-img" />
         </div>
         <div className="page-content">
-            <MyCustomRenderer content={markdownContent} />
+            <ContentRenderer content={markdownContent} />
         </div>
         <Footer />
         </Container>

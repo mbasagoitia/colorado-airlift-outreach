@@ -1,7 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
-function MyCustomRenderer(props) {
+function ContentRenderer(props) {
     const { content } = props;
 
     const lines = content.split('\n');
@@ -50,4 +50,4 @@ function MyCustomRenderer(props) {
 
   
 
-export default MyCustomRenderer;
+export default ContentRenderer;
