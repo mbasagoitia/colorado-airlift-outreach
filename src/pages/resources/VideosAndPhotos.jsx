@@ -9,7 +9,7 @@ function VideosAndPhotos () {
 
     useEffect(() => {
         const scrollToNavigation = () => {
-          if (window.innerWidth > 375) {
+          if (window.innerWidth > 400) {
             const navigationBar = document.querySelector("#navigation-bar");
     
             if (navigationBar) {
