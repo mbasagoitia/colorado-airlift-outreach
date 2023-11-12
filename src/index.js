@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
@@ -8,11 +8,12 @@ import netlifyIdentity from 'netlify-identity-widget';
 
 netlifyIdentity.init();
 
+const root = document.getElementById('root');
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(root).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
+
 reportWebVitals();
