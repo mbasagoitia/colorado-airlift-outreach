@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Header from "../../components/Header";
 import Navigation from "../../components/Navigation";
@@ -5,6 +6,23 @@ import Footer from "../../components/Footer";
 import PhotoPreviews from "../../components/PhotoPreviews";
 
 function VideosAndPhotos () {
+
+    useEffect(() => {
+        const scrollToNavigation = () => {
+          if (window.innerWidth > 375) {
+            const navigationBar = document.querySelector("#navigation-bar");
+    
+            if (navigationBar) {
+              window.scrollTo(0, navigationBar.offsetTop);
+            }
+          }
+        };
+
+        const scrollTimeout = setTimeout(scrollToNavigation, 100);
+    
+        return () => clearTimeout(scrollTimeout);
+    
+      }, []);
 
     const linkInfo = [
         {

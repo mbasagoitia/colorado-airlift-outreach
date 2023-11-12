@@ -10,6 +10,23 @@ function Checklist () {
     const [markdownContent, setMarkdownContent] = useState("");
 
     useEffect(() => {
+        const scrollToNavigation = () => {
+          if (window.innerWidth > 375) {
+            const navigationBar = document.querySelector("#navigation-bar");
+    
+            if (navigationBar) {
+              window.scrollTo(0, navigationBar.offsetTop);
+            }
+          }
+        };
+
+        const scrollTimeout = setTimeout(scrollToNavigation, 100);
+    
+        return () => clearTimeout(scrollTimeout);
+    
+      }, []);
+
+    useEffect(() => {
         const markdownFilePath = "/content/pages/resources/clinic-trip-checklist.md";
 
         fetch(markdownFilePath)

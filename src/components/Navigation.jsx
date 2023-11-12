@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navigation () {
     return (
-        <Navbar expand="md" data-bs-theme="dark">
+        <Navbar expand="md" data-bs-theme="dark" id="navigation-bar">
         <Container className="nav-container">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
