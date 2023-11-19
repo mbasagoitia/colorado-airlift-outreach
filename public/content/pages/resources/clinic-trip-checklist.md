@@ -1,20 +1,21 @@
 ---
-title: "Clinic Trip Checklist"
+title: Clinic Trip Checklist
 ---
-
 # Clinic Trip Checklist
 
 {className="mt-4"}**Consider Immunizations:** Volunteers may want to check on the status of their immunizations, as well as recommended additional immunizations for travel in Mexico. County Health Departments often have such recommendations and offer discounted immunizations.
 
 **Confirm Passport:** Volunteers need to carry their current Passport with them to enter Mexico and return to the U.S. Those without a Passport, or with an expired Passport need to obtain one through their U.S. Post Office, preferably months before the scheduled clinic date.
 
-**Make Hotel Reservation:** Hotel reservations are made online by contacting the La Villa de San Quintin Hotel prior to the clinic weekend. Volunteers will need to make their individual reservations online at [http://www.hotellavilla.biz/sanquintin](http://www.hotellavilla.biz/sanquintin). Mention that you are with CALO and there is typically a discount provided when payment is made onsite. If this hotel is unavailable, we suggest making reservations at the neighboring Maria Celeste Hotel at O11-52 Country Code + 616-165-3999 (request English speaker if needed).
+**Make Clinic Reservation:  **Clinic reservations are made on Mission Flight's website (www.missionflight.org) at least 30 days prior to the scheduled clinic weekend.
 
-As volunteers register for the clinic, they will indicate on the Trip Registration Form whether they would like to be placed on a list of parties desiring to share a room. CALO will communicate these volunteers’ names and contact information to others desiring to share a room to allow the parties to make arrangements. Normally, one party reserves the room and costs are shared as arranged by the parties.
+**Make Hotel Reservation:** Hotel reservations are made individually by volunteers online on Expedia or similar booking sites for the La Villa de San Quintin Hotel at least four weeks prior to the clinic weekend.  If this hotel is unavailable, we suggest making reservations at the neighboring Maria Celeste Hotel at O11-52 Country Code + 616-165-3999 (request English speaker if needed).
+
+As Colorado volunteers register for the clinic through MIssion Flight's website, they may communicate with Rick Weaver, CALO's President, if they desire to share a hotel room, and he will try to match volunteers.  Normally, one volunteer reserves the room and costs are shared as arranged by the volunteers.
 
 **Departure Information:** About two weeks before the scheduled clinic, Pilot Coordinators will contact volunteers with the details about the departure airport location and time, as well as the pilot and plane for which they will be assigned. Volunteers are asked to keep their total personal baggage weight to under 15 pounds. In the event of special circumstances, or if equipment or tools need to be transported that would exceed this limit, please advise the Pilot Coordinator. Their contact information is listed under the “Contact” tab for this website.
 
-**Trip Costs, Obtaining Pesos, and Cancelation Fees:** The cost for the trip is paid by the volunteers and varies from about $400 to $550, depending on hotel accommodations (single, double, etc.), meal preferences, the U.S. departure location, and the aircraft. These costs include shared fuel expense (estimated by pilots and paid directly to the pilot in U.S. dollars or by check, varying between $185 to $250 USD), hotel accommodations (single rooms for three nights total about $150USD), meals (less than $100 USD), and border crossing fees (less than $50 USD, paid in pesos or USD). Typically, all costs can be paid with U.S. cash or credit cards (remember to inform your credit card company of your travel plans beforehand). Using pesos can be convenient, but at the time of this writing, are not essential for the trip. There are no ATM’s in San Quintin for cash.
+**Trip Costs, Obtaining Pesos, and Cancelation Fees:** The cost for the trip is paid by the volunteers and normally does not exceed $600, depending on hotel accommodations (single, double, etc.), meal preferences, the U.S. departure location, and the aircraft. These costs include shared fuel expense (estimated by pilots and paid directly to the pilot in U.S. dollars or by check, varying between $185 to $250 USD), hotel accommodations (single rooms for three nights total about $150USD), meals (less than $100 USD), and border crossing fees (less than $50 USD, paid in pesos or USD). Typically, all costs can be paid with U.S. cash or credit cards (remember to inform your credit card company of your travel plans beforehand). Using pesos can be convenient, but at the time of this writing, are not essential for the trip. There are no ATM’s in San Quintin for cash.
 
 Volunteers flying to a clinic will have seats reserved for them on aircraft about a week prior to the clinic weekend. Volunteers canceling seats less than a week prior to a clinic will be responsible to pay an amount equal to the shared fuel amount (indicated above) as a cancelation fee. The fee may be waived at CALO’s discretion under emergency, illness, or other similar circumstances.
 
@@ -44,13 +45,13 @@ A typical weekend at the mission clinic starts with preparations and equipment s
 
 {className="my-4"}## Emergency Contact Information
 
-Bill Roesch, 970-901-9205 (cell and text), [b_roesch@yahoo.com](mailto:b_roesch@yahoo.com)
+Bill Roesch, 970-901-9205 (cell and text), <mailto:b_roesch@yahoo.com>
 
 USA-based Team Contact volunteers who can often be reached in Mexico during a Clinic weekend by dialing or texting directly (emails are unreliable while in MX):
 
-Rick Weaver, 970-209-8706, [rickweaver21@gmail.com](mailto:rickweaver21@gmail.com)
+Rick Weaver, 970-209-8706, <mailto:rickweaver21@gmail.com>
 
-Ed Greager, 909-354-7323, [714pilot@gmail.com](mailto:714pilot@gmail.com)
+Ed Greager, 909-354-7323, <mailto:714pilot@gmail.com>
 
 La Villa de San Quintin Hotel:
 
@@ -58,7 +59,7 @@ O11-52 Country Code + 616-165-1800 office
 
 011-52 Country Code + 616-165-1415 FAX
 
-[http://www.hotellavilla.biz/sanquintin](http://www.hotellavilla.biz/sanquintin)
+<http://www.hotellavilla.biz/sanquintin>
 
 El Buen Pastor Hospital (Spanish speakers):
 
