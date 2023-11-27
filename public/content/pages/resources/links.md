@@ -17,4 +17,4 @@ title: Links
 
 [Baja Bush Pilots Association](http://www.bajabushpilots.com)
 
-AOPA:    https://www.aopa.org/-/media/files/aopa/home/go-flying/cross-border-flying_v8.pdf
+[AOPA](https://www.aopa.org/-/media/files/aopa/home/go-flying/cross-border-flying_v8.pdf)
