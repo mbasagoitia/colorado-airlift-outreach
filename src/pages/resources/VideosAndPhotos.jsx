@@ -37,8 +37,8 @@ function VideosAndPhotos () {
         },
         {
             title: "Flying to Mexico",
-            photo1: "/images/resources/videos-photos/vp-img-12.jpg",
-            photo2: null
+            photo1: "/images/resources/videos-photos/vp-img-59.jpg",
+            photo2: "/images/resources/videos-photos/vp-img-60.jpg",
         },
         {
             title: "Patients Waiting for Eye Clinic",

@@ -4,6 +4,7 @@ import PhotoCollection from "../../../components/PhotoCollection";
 
 const defaultImages = [
     "/images/resources/videos-photos/vp-img-8.jpg",
+    "/images/resources/videos-photos/vp-img-12.jpg",
     "/images/resources/videos-photos/vp-img-10.jpg",
     "/images/resources/videos-photos/vp-img-38.jpg"
 ];

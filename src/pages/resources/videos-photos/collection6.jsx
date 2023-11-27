@@ -20,7 +20,9 @@ const defaultImages = [
     "/images/resources/videos-photos/vp-img-53.jpg",
     "/images/resources/videos-photos/vp-img-54.jpg",
     "/images/resources/videos-photos/vp-img-55.jpg",
-    "/images/resources/videos-photos/vp-img-56.mp4"
+    "/images/resources/videos-photos/vp-img-56.mp4",
+    "/images/resources/videos-photos/vp-img-70.jpg",
+    "/images/resources/videos-photos/vp-img-71.jpg"
 ];
 
 const collection = "collection6";
