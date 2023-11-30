@@ -3,7 +3,7 @@ title: Links
 ---
 # Links
 
-{className="mt-4"}[AOPA](http://www.aopa.org/Flight-Planning/Mexico)
+{className="mt-4"}[AOPA](http://www.aopa.org/Flight-Planning/Mexico) - Mexico Guide
 
 [EAPISfile.com](https://www.eapisfile.com) (US and MX EAPIS filing service provider)
 
@@ -17,4 +17,4 @@ title: Links
 
 [Baja Bush Pilots Association](http://www.bajabushpilots.com)
 
-[AOPA](https://www.aopa.org/-/media/files/aopa/home/go-flying/cross-border-flying_v8.pdf)
+[AOPA](https://www.aopa.org/-/media/files/aopa/home/go-flying/cross-border-flying_v8.pdf) - Cross Borders, Cross Guide
