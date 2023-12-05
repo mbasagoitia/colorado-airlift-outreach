@@ -31,7 +31,7 @@ function App() {
         <Route path="resources/emergency-contacts" element={<EmergencyContacts />} />
         <Route path="resources/videos-and-photos" element={<VideosAndPhotos />} />
         <Route path="resources/videos-and-photos/team-of-airplanes" element={<Collection1 />} />
-        <Route path="resources/videos-and-photos/colorado-team" element={<Collection2 />} />
+        <Route path="resources/videos-and-photos/colorado-team-and-partners" element={<Collection2 />} />
         <Route path="resources/videos-and-photos/flying-to-mexico" element={<Collection3 />} />
         <Route path="resources/videos-and-photos/patients-waiting-for-eye-clinic" element={<Collection4 />} />
         <Route path="resources/videos-and-photos/optometry-clinic" element={<Collection5 />} />
