@@ -1,6 +1,6 @@
 import PhotoCollection from "../../../components/PhotoCollection";
 
-// Colorado Team
+// Colorado Team and Partners
 
 const defaultImages = [
     "/images/resources/videos-photos/vp-img-8.jpg",

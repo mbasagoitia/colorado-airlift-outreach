@@ -1,5 +1,5 @@
 ---
-title: Colorado Team
+title: Colorado Team and Partners
 images:
 ---
 

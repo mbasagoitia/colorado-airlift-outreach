@@ -31,7 +31,7 @@ function VideosAndPhotos () {
             photo2: "/images/resources/videos-photos/vp-img-51.jpg"
         },
         {
-            title: "Colorado Team",
+            title: "Colorado Team and Partners",
             photo1: "/images/resources/videos-photos/vp-img-8.jpg",
             photo2: "/images/resources/videos-photos/vp-img-10.jpg"
         },
