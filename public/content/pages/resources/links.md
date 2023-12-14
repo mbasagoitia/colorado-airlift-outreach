@@ -5,6 +5,8 @@ title: Links
 
 {className="mt-4"}[AOPA](http://www.aopa.org/Flight-Planning/Mexico) - Mexico Guide
 
+[Mission Flight ](https://www.missionflight.org/)- Partner organization and for making clinic reservations
+
 [EAPISfile.com](https://www.eapisfile.com) (US and MX EAPIS filing service provider)
 
 [U.S. Customs Stickers](https://dtops.cbp.dhs.gov)
