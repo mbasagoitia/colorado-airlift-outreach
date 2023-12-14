@@ -1,0 +1,2 @@
+# Redirect from HTTP to HTTPS
+http://www.coloradoairliftoutreach.org/* https://www.coloradoairliftoutreach.org/:splat 301!
