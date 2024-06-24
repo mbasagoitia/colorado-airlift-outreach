@@ -13,4 +13,4 @@ Thursday, April 18 – Sunday, April 21
 
 **FALL CLINIC**
 
-Thursday, September 26 – Sunday, September 29
+Thursday, September 19 – Sunday, September 22
