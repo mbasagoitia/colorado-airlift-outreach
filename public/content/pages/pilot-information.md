@@ -67,7 +67,7 @@ On January 1, 2024 as number of Mexican government border crossing procedural an
 * Get Standard Briefing. Limited aviation WX information will be available in Baja south of the border where there may be an ATIS at towered airports, but no AWAS or equivalent to the U.S. Flight Service Station.
 * Confirm pilots and passengers all have passports and pesos on persons.
 * Confirm common in-flight communication frequency, typically 122.75 typical, or 122.85 or 123.45 as alternates.
-* Notify Mexico APIS through outside service provider or by emailing Excel spreadsheet (from Caribbean Sky Tours website) to them 30 minutes before departure. Confirm this requirement, as it is dynamic.
+* Notify Mexico APIS through outside service provider or by emailing Excel spreadsheet to them immediately before departure. Confirm this requirement, as it is dynamic.
 * Activate flight plan to MMML.
 * At least 30 minutes before landing MMML, confirm with Flight Service Station that your flight plan from MMML to Calexico (KCXL) or Yuma (KNYL) is on file for Sunday morning return trip. This will save a lot of anxiety Sunday when the U.S. Flight Service frequency is busy with aircraft returning to the U.S.
 * Pick up flight following/traffic advisories.
@@ -144,8 +144,11 @@ To check out of country, the passengers will need to pay exit fees with Immigrat
 
 Pilot will file a Mexican flight plan at flight plan office. Additionally, 30 minutes before departure, file Mexican APIS online if you have not arranged this through a service provider (highly recommended).
 
+* Upon landing, prior to exiting the aircraft, notify Mexico APIS through outside service provider or by emailing Excel spreadsheet to them. Confirm this requirement, as it is dynamic.
+
 {className="pi-subheading"}**MMML to KCXL**
 
+* Call US Customs/Border Patrol in Calexico (760-357-1208) and request permission to land before departing MMML.  Update ETA if needed.
 * Contact Tower and depart MMML as you would any towered airport.
 * Immediately squawk code assigned by FSS the hour before, unless instructed to do so upon border crossing.  Contact San Diego Radio airborne to activates your flight plan prior to crossing the border.
 * Land at KCXL as you would any other non-towered airport.
