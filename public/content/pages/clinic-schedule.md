@@ -3,14 +3,14 @@ title: Clinic Schedule
 ---
 # Clinic Schedule
 
-{className="mt-4"}We are currently directing our resources in support of spring and fall four-day weekend flights at the El Buen Pastor Hospital, San Quintin, Baja, Mexico. The general schedule is for Thursday through Sunday clinics the fourth weekend in April and the third weekend in September, with exceptions to that timing common.  Volunteers serving in the Optometry portion of the clinic often travel a day early (Wednesday) to assist with set up and to provide an additional day for treatment.
+{className="mt-4"}We are currently directing our resources in support of spring and fall four-day weekend flights at the El Buen Pastor Hospital, San Quintin, Baja, Mexico. The general schedule is for Wednesday/Thursday through Sunday clinics the fourth weekend in April and the third weekend in September, with exceptions to that timing common.  Volunteers serving in the Optometry portion of the clinic often travel a day earlier (Wednesday) to assist with set up and to provide an additional day for treatment.
 
-For **2024**, the clinic dates are:
+For **2025**, the clinic dates are:
 
 **SPRING CLINIC**
 
-Thursday, April 18 – Sunday, April 21
+Wednesday, April 23 – Sunday, April 27
 
 **FALL CLINIC**
 
-Thursday, September 19 – Sunday, September 22
+Wednesday, September 17 – Sunday, September 21
